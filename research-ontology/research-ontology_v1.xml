@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="research-ontology_v1.xml" ont_id="1541676453149ont" >
+<FILENAME_ONT>research-ontology_v1.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="19252" h="19217" x="56" y="145" />
+<CONCEPT id="1541676453149_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="20"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n1" >
+<LABEL>教育システム情報学研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1040" y="312"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1542207364000_s2" 
+ type="OR"  label="slot4"  kind="p/o"  num="1.."  role="貢献が強く期待される成果"  class_constraint="教育・学習モデリング手法"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="研究ドメイン$slot"/>
+<SLOTS>
+<SLOT id="1542207364000_s3" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1.."  role="教育対象"  class_constraint="科目教育"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="科目教育" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542207364000_s4" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1.."  role="教育対象"  class_constraint="スキル教育"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="スキル教育" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="教育・学習モデリング手法" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542207364000_s5" 
+ type="OR"  label="slot5"  kind="p/o"  num="1.."  role="貢献が強く期待される成果"  class_constraint="機械工学的技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="研究ドメイン$slot"/>
+<SUB_L label="" def="" role_name="" class_const="機械工学的技術" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542207364000_s6" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="貢献が強く期待される成果"  class_constraint="情報工学的技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="研究ドメイン$slot"/>
+<SUB_L label="" def="" role_name="" class_const="情報工学的技術" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541925399000_s3" 
+ type="OR"  label="slot3"  kind="a/o"  num="1.."  role="主に必要な研究遂行スキル"  class_constraint="スキル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="研究ドメイン$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="スキル" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n4" >
+<LABEL>教育システム実践研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1733" y="521"/>
+<SLOTS>
+<SLOT id="1541921512000_s7" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="貢献が強く期待される成果"  class_constraint="(システムを系に含む)実践のモデリング手法"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="研究ドメイン$slot"/>
+<SUB_L label="" def="" role_name="" class_const="(システムを系に含む)実践のモデリング手法" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n6" >
+<LABEL>知見</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="382" y="55"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1541679525000_s11" 
+ type="NW"  label="slot"  kind="a/o"  num="1.."  role="関連する知見"  class_constraint="知見"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="知見" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541679607000_s12" 
+ type="NW"  label="slot2"  kind="p/o"  num="1.."  role="知見の対象"  class_constraint="Terminology"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Terminology" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n8" >
+<LABEL>機械工学的技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="700" y="100"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n10" >
+<LABEL>学習者モデリング手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1080" y="200"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n11" >
+<LABEL>教育・学習モデリング手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="842" y="80"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n12" >
+<LABEL>AIED/ITS研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1725" y="591"/>
+<SLOTS>
+<SLOT id="1541921512000_s18" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="貢献が強く期待される成果"  class_constraint="学習者モデリング手法"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="研究ドメイン$slot"/>
+<SUB_L label="" def="" role_name="" class_const="学習者モデリング手法" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n14" >
+<LABEL>LA(EDM系)研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1669" y="761"/>
+<SLOTS>
+<SLOT id="1541921512000_s19" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="貢献が強く期待される成果"  class_constraint="スキルモデリング技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="研究ドメイン$slot"/>
+<SUB_L label="" def="" role_name="" class_const="スキルモデリング技術" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541921512000_s20" 
+ type="OR"  label="slot4"  kind="p/o"  num="0.."  role="貢献が強く期待される成果"  class_constraint="センサー利用技術"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="研究ドメイン$slot"/>
+<SUB_L label="" def="" role_name="" class_const="センサー利用技術" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n16" >
+<LABEL>(システムを系に含む)教授戦略モデリング手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1016" y="113"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n17" >
+<LABEL>(システムを系に含む)教材モデリング手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1160" y="80"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n18" >
+<LABEL>研究ドメイン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="672" y="284"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1541921512000_s26" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="貢献が強く期待される成果"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1541921512000_s24" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="知見の実体"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541921512000_s25" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1.."  role="成果のタイプ"  class_constraint="知見"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="知見" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541921512000_s27" 
+ type="NW"  label="slot2"  kind="p/o"  num="1.."  role="構成知識"  class_constraint="知見"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="知見" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541925399000_s25" 
+ type="NW"  label="slot3"  kind="a/o"  num="1.."  role="主に必要な研究遂行スキル"  class_constraint="スキル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="スキル" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541925399000_s26" 
+ type="NW"  label="slot4"  kind="a/o"  num="0.."  role="研究遂行を通じて獲得が期待される知識/スキル"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1541948141000_s27" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1.."  role="学士研究を通じて涵養が期待される知識/スキル"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541948141000_s28" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1.."  role="修士研究を通じて涵養が期待される知識/スキル"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541948141000_s29" 
+ type="R2-1"  label="slot3"  kind="p/o"  num="1.."  role="博士研究を通じて涵養が期待される知識/スキル"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541948141000_s30" 
+ type="R2-1"  label="slot4"  kind="p/o"  num="1.."  role="教員としての研究を通じて涵養が期待される知識/スキル"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541948141000_s31" 
+ type="R2-1"  label="slot5"  kind="p/o"  num="1.."  role="企業研究者としての研究を通じて涵養が期待される知識/スキル"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n21" >
+<LABEL>情報工学的技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="700" y="120"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n22" >
+<LABEL>認知のモデル化技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1000" y="20"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1541679741000_s30" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="知見の対象"  class_constraint="認知スキル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="知見$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="認知" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n23" >
+<LABEL>VR応用技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="927" y="125"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n24" >
+<LABEL>音声取得技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="926" y="159"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n25" >
+<LABEL>スキルモデリング技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="840" y="40"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676453149_n26" >
+<LABEL>(システムを系に含む)実践のモデリング手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1042" y="147"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676455000_n28" >
+<LABEL>センサー利用技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="906" y="182"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541676795000_n33" >
+<LABEL>(インスタンスレベルの)研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="527" y="905"/>
+<SLOTS>
+<SLOT id="1541676795000_s34" 
+ type="NW"  label="slot"  kind="a/o"  num="1.."  role="基本的な成果の観点"  class_constraint="研究ドメイン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="研究ドメイン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541676795000_s35" 
+ type="NW"  label="slot2"  kind="p/o"  num="1.."  role="成果の実体/振る舞い(共通問題？)"  class_constraint="知見"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1541678244000_s36" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1.."  role="研究遂行者が意識している成果のタイプ"  class_constraint="知見"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="知見" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541678244000_s37" 
+ type="R2-2"  label="slot2"  kind="p/o"  num="1.."  role="潜在的な成果のタイプ"  class_constraint="知見"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="知見" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="知見" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542200389000_s47" 
+ type="NW"  label="slot4"  kind="a/o"  num="1.."  role="主な研究キーワード"  class_constraint="Terminology"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Terminology" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541991128000_s46" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="主たる研究遂行者"  class_constraint="人間"  rh_name="研究者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1542000202000_s47" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="名前"  class_constraint="string"  rh_name="研究者名"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542000202000_s48" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1.."  role="所属"  class_constraint="組織"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="組織" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1541678675000_rc38" label="重複なし" ><POS x="887" y="1049"/>
+<ARC label="概念セット１">(インスタンスレベルの)研究$slot2%slot</ARC>
+<ARC label="概念セット２">(インスタンスレベルの)研究$slot2%slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541677018000_n39" >
+<LABEL>学会</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="98" y="173"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1541677018000_s40" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="主たる研究ドメイン"  class_constraint="研究ドメイン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="研究ドメイン" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541677018000_s41" 
+ type="NW"  label="slot2"  kind="p/o"  num="1.."  role="発表される研究実体"  class_constraint="(インスタンスレベルの)研究"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1542003797000_s54" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1.."  role="発表者の意図(観点)"  class_constraint="研究ドメイン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="(インスタンスレベルの)研究$slot"/>
+<SUB_L label="" def="" role_name="" class_const="研究ドメイン" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="(インスタンスレベルの)研究" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542003178000_s54" 
+ type="OR"  label="slot3"  kind="a/o"  num="1"  role="学会名"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="組織$slot"/>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541678781000_n44" >
+<LABEL>Kinectの応用方法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="980" y="224"/>
+<SLOTS>
+<SLOT id="1542179656000_s56" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="知見の対象"  class_constraint="Kinect"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="知見$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="Kinect" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679563000_n44" >
+<LABEL>メタ認知</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="720"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679607000_n47" >
+<LABEL>Terminology</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="60" y="560"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n48" >
+<LABEL>自己効力感</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="360" y="580"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n49" >
+<LABEL>原因帰属</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="400" y="600"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n50" >
+<LABEL>学習方略</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="320" y="600"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n51" >
+<LABEL>プログラミング学習/教育</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="100" y="620"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n52" >
+<LABEL>構造理解</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="600"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n53" >
+<LABEL>知識工学</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="220" y="600"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n54" >
+<LABEL>学習分析</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="160" y="560"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n55" >
+<LABEL>ITS</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="180" y="600"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n56" >
+<LABEL>アクティブラーニング</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="340" y="660"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n57" >
+<LABEL>Kinect</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="100" y="680"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541679761000_n58" >
+<LABEL>協調学習/CSCL</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="420" y="700"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541680736000_n59" >
+<LABEL>プレゼンテーション</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="280" y="700"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541680736000_n60" >
+<LABEL>メタ思考</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="440" y="580"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541920297000_n60" >
+<LABEL>教育システム研究系学会</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="124" y="344"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1541921158000_s61" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="主たる研究ドメイン"  class_constraint="教育システム情報学研究"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="学会$slot"/>
+<SUB_L label="" def="" role_name="" class_const="教育システム情報学研究" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541920297000_n61" >
+<LABEL>教育研究系学会</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="484" y="320"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1541922788000_s60" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="主たる研究ドメイン"  class_constraint="教育学研究"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="学会$slot"/>
+<SUB_L label="" def="" role_name="" class_const="教育学研究" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541920297000_n62" >
+<LABEL>人工知能研究系学会</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="483" y="215"/>
+<SLOTS>
+<SLOT id="1541923175000_s62" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="主たる研究ドメイン"  class_constraint="研究ドメイン"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="学会$slot"/>
+<SUB_L label="" def="" role_name="" class_const="研究ドメイン" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541920297000_n63" >
+<LABEL>電子情報学研究系学会</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="466" y="344"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1541920939000_s64" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="主たる研究ドメイン"  class_constraint="機械工学技術研究"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="学会$slot"/>
+<SUB_L label="" def="" role_name="" class_const="機械工学技術研究" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541921222000_n66" >
+<LABEL>機械工学技術研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="960" y="800"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1541922788000_s64" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="構成技術"  class_constraint="知見"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="研究ドメイン$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="知見" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541921512000_n69" >
+<LABEL>数学研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="980" y="840"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541921512000_n70" >
+<LABEL>物理学研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="980" y="900"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541921512000_n71" >
+<LABEL>教育学研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1145" y="566"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1542207364000_s88" 
+ type="OR"  label="slot3"  kind="a/o"  num="1.."  role="主に必要な研究遂行スキル"  class_constraint="スキル"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="研究ドメイン$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="スキル" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1542207364000_s89" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="貢献が強く期待される成果"  class_constraint="教育・学習モデリング手法"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="研究ドメイン$slot"/>
+<SUB_L label="slot" def="" role_name="貢献が強く期待される成果" class_const="教育・学習モデリング手法" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541922654000_n69" >
+<LABEL>理論的知見</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="561" y="41"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541922654000_n70" >
+<LABEL>技術的知見</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="592" y="104"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541923362000_n72" >
+<LABEL>航空機械技術研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1080" y="880"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541923362000_n73" >
+<LABEL>基礎数学理論研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1080" y="920"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541923362000_n74" >
+<LABEL>応用数学理論研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1080" y="940"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541923362000_n75" >
+<LABEL>教育実践研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1679" y="927"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541923362000_n76" >
+<LABEL>教育理論研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1633" y="900"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541924008000_n77" >
+<LABEL>アイトラッカー</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="700"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541924008000_n78" >
+<LABEL>HMD</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="180" y="680"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541948030000_n83" >
+<LABEL>学習者の知識構造モデリング手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1320" y="180"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541948030000_n84" >
+<LABEL>学習者の心理的状態・構造モデリング手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1254" y="204"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541961061000_n90" >
+<LABEL>e-Learning研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1664" y="656"/>
+<SLOTS>
+<SLOT id="1541961061000_s91" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="貢献が強く期待される成果"  class_constraint="既存の教育/学習の困難性を軽減する実践デザイン手法"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="研究ドメイン$slot"/>
+<SUB_L label="" def="" role_name="" class_const="既存の教育/学習の困難性を軽減する実践デザイン手法" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541961061000_n92" >
+<LABEL>LMS</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="320" y="720"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541991128000_n94" >
+<LABEL>生物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="17" y="669"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1541991128000_n95" >
+<LABEL>人間</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="780"/>
+<SLOTS>
+<SLOT id="1542004132000_s101" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="名前"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542000202000_n102" >
+<LABEL>組織</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="80"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1542003178000_s104" 
+ type="NW"  label="slot"  kind="a/o"  num="1.."  role="組織名"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542000202000_n103" >
+<LABEL>研究室</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="234" y="124"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542000202000_n104" >
+<LABEL>全く新しい教育/学習実践のデザイン手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1313" y="117"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542000202000_n105" >
+<LABEL>既存の教育/学習の困難性を軽減する実践デザイン手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1321" y="154"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542002600000_n106" >
+<LABEL>心理学研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="980" y="780"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542002600000_n107" >
+<LABEL>認知スキル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="180" y="880"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542002600000_n108" >
+<LABEL>メタ認知のモデル化技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1200" y="20"/>
+<SLOTS>
+<SLOT id="1542002600000_s109" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="知見の対象"  class_constraint="メタ認知"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="認知のモデル化技術$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="メタ認知" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542004215000_n114" >
+<LABEL>スキル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="200" y="800"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542004215000_n115" >
+<LABEL>研究遂行スキル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="280" y="820"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542004215000_n116" >
+<LABEL>制作技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="860"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542004215000_n117" >
+<LABEL>思考スキル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="220" y="860"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542006362000_n118" >
+<LABEL>メタ思考スキル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="360" y="840"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542006362000_n119" >
+<LABEL>知識構造化スキル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="340" y="880"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542006813000_n120" >
+<LABEL>人工知能系教育システム研究系学会</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="234" y="462"/>
+<SLOTS>
+<SLOT id="1542179892000_s118" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="主たる研究ドメイン"  class_constraint="AIED/ITS研究"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="教育システム研究系学会$slot"/>
+<SUB_L label="" def="" role_name="" class_const="AIED/ITS研究" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542006813000_n121" >
+<LABEL>電子情報学系教育システム研究系学会</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="394" y="440"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1542179717000_s119" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="主たる研究ドメイン"  class_constraint="LA(EDM系)研究"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="教育システム研究系学会$slot"/>
+<SUB_L label="" def="" role_name="" class_const="LA研究" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542006813000_n122" >
+<LABEL>教育学系教育システム研究系学会</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="420" y="410"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1542179717000_s120" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="主たる研究ドメイン"  class_constraint="教育システム実践研究"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="教育システム研究系学会$slot"/>
+<SUB_L label="" def="" role_name="" class_const="教育システム実践研究" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542179914000_n123" >
+<LABEL>社会心理学研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1100" y="800"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542179914000_n124" >
+<LABEL>認知心理学研究</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1100" y="820"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542179914000_n125" >
+<LABEL>臨床心理学</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1120" y="840"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542190866000_n127" >
+<LABEL>人を系に含む対象の理論</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="660" y="60"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542192803000_n128" >
+<LABEL>人を系に含まない対象の理論</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="660" y="20"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542207037000_n130" >
+<LABEL>モデルのプログラミング技術</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="703" y="192"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542207231000_n133" >
+<LABEL>科目教育</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="42" y="628"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1542207231000_n134" >
+<LABEL>スキル教育</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="642"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1541676453149_isa27" parent="教育システム情報学研究" child="教育システム実践研究" />
+<ISA id="1541676453149_isa28" parent="Any" child="知見" />
+<ISA id="1541676453149_isa29" parent="教育システム情報学研究" child="AIED/ITS研究" />
+<ISA id="1541676453149_isa30" parent="教育システム情報学研究" child="LA(EDM系)研究" />
+<ISA id="1541676453149_isa31" parent="Any" child="研究ドメイン" />
+<ISA id="1541676453149_isa32" parent="研究ドメイン" child="教育システム情報学研究" />
+<ISA id="1541676453149_isa38" parent="教育・学習モデリング手法" child="(システムを系に含む)教材モデリング手法" />
+<ISA id="1541676453149_isa39" parent="教育・学習モデリング手法" child="(システムを系に含む)教授戦略モデリング手法" />
+<ISA id="1541676453149_isa40" parent="教育・学習モデリング手法" child="学習者モデリング手法" />
+<ISA id="1541676453149_isa42" parent="機械工学的技術" child="VR応用技術" />
+<ISA id="1541676453149_isa43" parent="機械工学的技術" child="音声取得技術" />
+<ISA id="1541676453149_isa45" parent="スキルモデリング技術" child="認知のモデル化技術" />
+<ISA id="1541676453149_isa47" parent="教育・学習モデリング手法" child="(システムを系に含む)実践のモデリング手法" />
+<ISA id="1541676455000_isa50" parent="機械工学的技術" child="センサー利用技術" />
+<ISA id="1541676795000_isa58" parent="Any" child="(インスタンスレベルの)研究" />
+<ISA id="1541678781000_isa71" parent="センサー利用技術" child="Kinectの応用方法" />
+<ISA id="1541679607000_isa73" parent="Any" child="Terminology" />
+<ISA id="1541679761000_isa86" parent="Terminology" child="自己効力感" />
+<ISA id="1541679761000_isa87" parent="Terminology" child="原因帰属" />
+<ISA id="1541679761000_isa88" parent="Terminology" child="学習方略" />
+<ISA id="1541679761000_isa89" parent="Terminology" child="プログラミング学習/教育" />
+<ISA id="1541679761000_isa90" parent="Terminology" child="構造理解" />
+<ISA id="1541679761000_isa91" parent="Terminology" child="知識工学" />
+<ISA id="1541679761000_isa92" parent="Terminology" child="学習分析" />
+<ISA id="1541679761000_isa93" parent="Terminology" child="ITS" />
+<ISA id="1541679761000_isa94" parent="Terminology" child="アクティブラーニング" />
+<ISA id="1541679761000_isa95" parent="Terminology" child="Kinect" />
+<ISA id="1541679761000_isa96" parent="Terminology" child="協調学習/CSCL" />
+<ISA id="1541680736000_isa99" parent="Terminology" child="プレゼンテーション" />
+<ISA id="1541680736000_isa100" parent="Terminology" child="メタ思考" />
+<ISA id="1541920297000_isa100" parent="学会" child="教育システム研究系学会" />
+<ISA id="1541920297000_isa104" parent="学会" child="教育研究系学会" />
+<ISA id="1541920297000_isa105" parent="学会" child="人工知能研究系学会" />
+<ISA id="1541920297000_isa106" parent="学会" child="電子情報学研究系学会" />
+<ISA id="1541921222000_isa110" parent="研究ドメイン" child="機械工学技術研究" />
+<ISA id="1541921512000_isa116" parent="研究ドメイン" child="数学研究" />
+<ISA id="1541921512000_isa117" parent="研究ドメイン" child="物理学研究" />
+<ISA id="1541921512000_isa118" parent="研究ドメイン" child="教育学研究" />
+<ISA id="1541922654000_isa116" parent="知見" child="理論的知見" />
+<ISA id="1541922654000_isa117" parent="知見" child="技術的知見" />
+<ISA id="1541922654000_isa119" parent="技術的知見" child="機械工学的技術" />
+<ISA id="1541922727000_isa115" parent="技術的知見" child="情報工学的技術" />
+<ISA id="1541923362000_isa122" parent="機械工学技術研究" child="航空機械技術研究" />
+<ISA id="1541923362000_isa123" parent="数学研究" child="基礎数学理論研究" />
+<ISA id="1541923362000_isa124" parent="数学研究" child="応用数学理論研究" />
+<ISA id="1541923362000_isa127" parent="教育学研究" child="教育実践研究" />
+<ISA id="1541923362000_isa128" parent="教育学研究" child="教育理論研究" />
+<ISA id="1541924008000_isa131" parent="Terminology" child="アイトラッカー" />
+<ISA id="1541924008000_isa132" parent="Terminology" child="HMD" />
+<ISA id="1541948030000_isa139" parent="学習者モデリング手法" child="学習者の知識構造モデリング手法" />
+<ISA id="1541948030000_isa140" parent="学習者モデリング手法" child="学習者の心理的状態・構造モデリング手法" />
+<ISA id="1541961061000_isa147" parent="教育システム情報学研究" child="e-Learning研究" />
+<ISA id="1541961061000_isa150" parent="Terminology" child="LMS" />
+<ISA id="1541991128000_isa154" parent="Any" child="生物" />
+<ISA id="1541991128000_isa155" parent="生物" child="人間" />
+<ISA id="1542000202000_isa166" parent="Any" child="組織" />
+<ISA id="1542000202000_isa167" parent="組織" child="学会" />
+<ISA id="1542000202000_isa168" parent="組織" child="研究室" />
+<ISA id="1542000202000_isa171" parent="(システムを系に含む)実践のモデリング手法" child="全く新しい教育/学習実践のデザイン手法" />
+<ISA id="1542000202000_isa172" parent="(システムを系に含む)実践のモデリング手法" child="既存の教育/学習の困難性を軽減する実践デザイン手法" />
+<ISA id="1542002600000_isa176" parent="研究ドメイン" child="心理学研究" />
+<ISA id="1542002600000_isa179" parent="認知のモデル化技術" child="メタ認知のモデル化技術" />
+<ISA id="1542004215000_isa188" parent="Any" child="スキル" />
+<ISA id="1542004215000_isa189" parent="スキル" child="研究遂行スキル" />
+<ISA id="1542004215000_isa190" parent="スキル" child="制作技術" />
+<ISA id="1542004215000_isa191" parent="スキル" child="思考スキル" />
+<ISA id="1542006362000_isa194" parent="思考スキル" child="メタ思考スキル" />
+<ISA id="1542006362000_isa195" parent="思考スキル" child="知識構造化スキル" />
+<ISA id="1542006813000_isa199" parent="教育システム研究系学会" child="人工知能系教育システム研究系学会" />
+<ISA id="1542006813000_isa200" parent="教育システム研究系学会" child="電子情報学系教育システム研究系学会" />
+<ISA id="1542006813000_isa201" parent="教育システム研究系学会" child="教育学系教育システム研究系学会" />
+<ISA id="1542015935000_isa201" parent="スキル" child="認知スキル" />
+<ISA id="1542179914000_isa201" parent="心理学研究" child="社会心理学研究" />
+<ISA id="1542179914000_isa202" parent="心理学研究" child="認知心理学研究" />
+<ISA id="1542179914000_isa204" parent="心理学研究" child="臨床心理学" />
+<ISA id="1542180132000_isa204" parent="Terminology" child="メタ認知" />
+<ISA id="1542190866000_isa204" parent="理論的知見" child="人を系に含む対象の理論" />
+<ISA id="1542190866000_isa205" parent="人を系に含む対象の理論" child="教育・学習モデリング手法" />
+<ISA id="1542190866000_isa206" parent="人を系に含む対象の理論" child="スキルモデリング技術" />
+<ISA id="1542192803000_isa208" parent="理論的知見" child="人を系に含まない対象の理論" />
+<ISA id="1542207037000_isa211" parent="情報工学的技術" child="モデルのプログラミング技術" />
+<ISA id="1542207231000_isa216" parent="Terminology" child="科目教育" />
+<ISA id="1542207231000_isa217" parent="Terminology" child="スキル教育" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="25652" h="25246" />
+<CONCEPT id="1541678462000_n65" >
+<LABEL>重複なし</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="200" y="20"/>
+<SLOTS>
+<SLOT id="1541678462000_s66" 
+ type="NW"  label="slot"  kind="p/i"  num="1.."  role="概念セット１"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1541678462000_s67" 
+ type="NW"  label="slot2"  kind="p/i"  num="1.."  role="概念セット２"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.0" h="842.0" iw="559.0" ih="783.0" ix="18.0" iy="18.0" />
+<PRINTER_SETTINGS orientation="1" printername="研究室プリンタ" />
+</PRINTER>
+</OE_FILE>

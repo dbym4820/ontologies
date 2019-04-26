@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="meta-learning.xml" ont_id="1553832104047ont" >
+<FILENAME_ONT>meta-learning.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="2000" h="3000" x="0" y="0" />
+<CONCEPT id="1553832104047_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="42" y="65"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n1" >
+<LABEL>学習</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="114" y="109"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1553832104000_s2" 
+ type="NW"  label="slot"  kind="a/o"  num="1.."  role="学習対象"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n2" >
+<LABEL>ドメイン学習</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="356" y="155"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n3" >
+<LABEL>メタ学習</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="332" y="213"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n5" >
+<LABEL>認知的なもの</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="47" y="194"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1553832104000_s6" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="説明"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n6" >
+<LABEL>知識</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="35" y="299"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1553832104000_s8" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="説明"  class_constraint="string"  rh_name=""  value="知っているか" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="認知的なもの$slot"/>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n7" >
+<LABEL>技能（スキル）</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="36" y="379"/>
+<SLOTS>
+<SLOT id="1553832104000_s10" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="説明"  class_constraint="string"  rh_name=""  value="できるか" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="認知的なもの$slot"/>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n8" >
+<LABEL>態度</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="39" y="464"/>
+<SLOTS>
+<SLOT id="1553832104000_s11" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="説明"  class_constraint="string"  rh_name=""  value="やろうとするか" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="認知的なもの$slot"/>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n13" >
+<LABEL>ドメイン知識</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="260" y="305"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n14" >
+<LABEL>メタ知識</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="223" y="346"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1553832104000_s15" 
+ type="NW"  label="slot"  kind="a/o"  num="1.."  role="表現対象"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n16" >
+<LABEL>ドメインメタ知識</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="413" y="321"/>
+<SLOTS>
+<SLOT id="1553832104000_s17" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="表現対象"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="メタ知識$slot"/>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1553832104000_n17" >
+<LABEL>メタ認知的知識</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="391" y="392"/>
+<SLOTS>
+<SLOT id="1553832104000_s19" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="表現対象"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="メタ知識$slot"/>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1553832104000_isa4" parent="Any" child="学習" />
+<ISA id="1553832104000_isa5" parent="学習" child="ドメイン学習" />
+<ISA id="1553832104000_isa6" parent="学習" child="メタ学習" />
+<ISA id="1553832104000_isa10" parent="Any" child="認知的なもの" />
+<ISA id="1553832104000_isa11" parent="認知的なもの" child="知識" />
+<ISA id="1553832104000_isa14" parent="認知的なもの" child="技能（スキル）" />
+<ISA id="1553832104000_isa15" parent="認知的なもの" child="態度" />
+<ISA id="1553832104000_isa22" parent="知識" child="ドメイン知識" />
+<ISA id="1553832104000_isa23" parent="知識" child="メタ知識" />
+<ISA id="1553832104000_isa27" parent="メタ知識" child="ドメインメタ知識" />
+<ISA id="1553832104000_isa28" parent="メタ知識" child="メタ認知的知識" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="2000" h="3000" />
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.0" h="842.0" iw="559.0" ih="783.0" ix="18.0" iy="18.0" />
+<PRINTER_SETTINGS orientation="1" printername="LBP9200C" />
+</PRINTER>
+</OE_FILE>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="1.xml" ont_id="1548906351320ont" >
+<FILENAME_ONT>1.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="4242" h="5033" x="4" y="56" />
+<CONCEPT id="1548906351320_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="68"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556081601000_n18" >
+<LABEL>設計思想を考える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="516" y="68"/>
+<SLOTS>
+<SLOT id="1556081601000_s19" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="入力"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="認知活動$slot"/>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1556081601000_s20" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="出力"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="認知活動$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1548906568000_n19" >
+<LABEL>メタ認知活動</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="156" y="192"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1556081601000_s21" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="入力"  class_constraint="認知活動"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="認知活動" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1548906568000_n20" >
+<LABEL>合理性を考える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="212" y="304"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1548906568000_n21" >
+<LABEL>設計思想と評価方法の合理性を考える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="336" y="332"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1548906568000_s23" 
+ type="NW"  label="slot3"  kind="p/o"  num="1.."  role="検討の妥当性/必要性Role"  class_constraint="思考活動に至る理由"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="思考活動に至る理由" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1548906568000_s24" 
+ type="NW"  label="slot2"  kind="p/o"  num="1.."  role="検討の目的Role"  class_constraint="思考に至る目的"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="思考に至る目的" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1556081601000_s26" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="設計思想の現状"  class_constraint="設計思想を考える"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="メタ認知活動$slot"/>
+<SUB_L label="" def="" role_name="" class_const="設計思想を考える" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1556081601000_s27" 
+ type="OR"  label="slot4"  kind="p/o"  num="1.."  role="評価方法の現状"  class_constraint="評価方法を考える"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="メタ認知活動$slot"/>
+<SUB_L label="" def="" role_name="" class_const="評価方法を考える" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556081601000_n28" >
+<LABEL>評価方法を考える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="516" y="176"/>
+<SLOTS>
+<SLOT id="1556081601000_s30" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="入力"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="認知活動$slot"/>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1556081601000_s31" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="出力"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="認知活動$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556081601000_n29" >
+<LABEL>認知活動</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="140" y="84"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1556081601000_s31" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="入力"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1556081601000_s33" 
+ type="NW"  label="slot2"  kind="p/o"  num="1.."  role="出力"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082370000_n39" >
+<LABEL>理由を考える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="768" y="352"/>
+<SLOTS>
+<SLOT id="1556082370000_s40" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="入力（理由の検討対象）"  class_constraint="Any"  rh_name="検討される対象"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="認知活動$slot"/>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1556082370000_s41" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="理由"  class_constraint="理由"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="認知活動$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="理由" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082370000_n43" >
+<LABEL>理由</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="84" y="348"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082733000_n27" >
+<LABEL>メタ認知活動の理由</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="464"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082733000_n28" >
+<LABEL>認知活動の理由</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="80" y="408"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082733000_n29" >
+<LABEL>思考活動に至る理由</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="100" y="524"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082733000_n30" >
+<LABEL>目的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="232" y="404"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082733000_n31" >
+<LABEL>認知活動の目的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="248" y="456"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082733000_n32" >
+<LABEL>メタ認知活動の目的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="276" y="512"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082733000_n33" >
+<LABEL>思考に至る目的</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="296" y="544"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082987000_n33" >
+<LABEL>批判的思考により気付きを喚起する</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="344" y="616"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082987000_n34" >
+<LABEL>設計思想と評価方法の合理性を考える_ins</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="720" y="500"/>
+<SLOTS>
+<SLOT id="1556082987000_s35" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="設計思想の現状"  class_constraint="設計思想を考える"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="設計思想と評価方法の合理性を考える$slot"/>
+<SLOTS>
+<SLOT id="1556083189000_s34" 
+ type="R2-2"  label="slot2"  kind="p/o"  num="1.."  role="出力"  class_constraint="批判的思考により気付きを喚起する"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="設計思想を考える$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="批判的思考により気付きを喚起する" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="設計思想を考える" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1556082987000_s36" 
+ type="OR"  label="slot4"  kind="p/o"  num="1.."  role="評価方法の現状"  class_constraint="評価方法を考える"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="設計思想と評価方法の合理性を考える$slot4"/>
+<SLOTS>
+<SLOT id="1556083189000_s36" 
+ type="R2-2"  label="slot2"  kind="p/o"  num="1.."  role="出力"  class_constraint="５件法で気づきの有無を分析する"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="評価方法を考える$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="５件法で気づきの有無を分析する" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="評価方法を考える" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1556082987000_n37" >
+<LABEL>５件法で気づきの有無を分析する</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="104" y="592"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1556081601000_isa47" parent="認知活動" child="メタ認知活動" />
+<ISA id="1556081601000_isa48" parent="認知活動" child="設計思想を考える" />
+<ISA id="1556081601000_isa50" parent="認知活動" child="評価方法を考える" />
+<ISA id="1556082248000_isa58" parent="メタ認知活動" child="合理性を考える" />
+<ISA id="1556082248000_isa59" parent="合理性を考える" child="設計思想と評価方法の合理性を考える" />
+<ISA id="1556082370000_isa64" parent="認知活動" child="理由を考える" />
+<ISA id="1556082733000_isa38" parent="Any" child="認知活動" />
+<ISA id="1556082733000_isa39" parent="Any" child="理由" />
+<ISA id="1556082733000_isa41" parent="理由" child="認知活動の理由" />
+<ISA id="1556082733000_isa46" parent="認知活動の理由" child="メタ認知活動の理由" />
+<ISA id="1556082733000_isa47" parent="メタ認知活動の理由" child="思考活動に至る理由" />
+<ISA id="1556082733000_isa48" parent="Any" child="目的" />
+<ISA id="1556082733000_isa49" parent="目的" child="認知活動の目的" />
+<ISA id="1556082733000_isa50" parent="認知活動の目的" child="メタ認知活動の目的" />
+<ISA id="1556082733000_isa51" parent="メタ認知活動の目的" child="思考に至る目的" />
+<ISA id="1556082987000_isa55" parent="思考に至る目的" child="批判的思考により気付きを喚起する" />
+<ISA id="1556082987000_isa56" parent="設計思想と評価方法の合理性を考える" child="設計思想と評価方法の合理性を考える_ins" />
+<ISA id="1556082987000_isa57" parent="思考活動に至る理由" child="５件法で気づきの有無を分析する" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="4496" h="5266" />
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.0" h="842.0" iw="559.0" ih="783.0" ix="18.0" iy="18.0" />
+<PRINTER_SETTINGS orientation="1" printername="LBP9200C" />
+</PRINTER>
+</OE_FILE>
