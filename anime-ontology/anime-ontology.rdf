@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:xsd="http://www.w3.org/2000/10/XMLSchema#"
+  xml:base="http://www.hozo.jp/rdf/anime-ontology.xml"
+>
+
+<rdfs:Class rdf:ID="WholnessConcept">
+  <rdfs:label>WholenessConcept</rdfs:label>
+</rdfs:Class>
+<rdfs:Class rdf:ID="RelationalConcept">
+  <rdfs:label>RelationalConcept</rdfs:label>
+</rdfs:Class>
+<rdfs:Class rdf:ID="Any">
+  <rdfs:label>Any</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#WholnessConcept" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="アニメ">
+  <rdfs:label>アニメ</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#映像作品" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="TVアニメ">
+  <rdfs:label>TVアニメ</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#アニメ" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="アニメ映画">
+  <rdfs:label>アニメ映画</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#アニメ" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="Webアニメ">
+  <rdfs:label>Webアニメ</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#アニメ" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="キャラクター">
+  <rdfs:label>キャラクター</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#インタンジブルな人工物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="女性キャラクター">
+  <rdfs:label>女性キャラクター</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#キャラクター" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="男性キャラクター">
+  <rdfs:label>男性キャラクター</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#キャラクター" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="実在物">
+  <rdfs:label>実在物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#Any" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="非実在物">
+  <rdfs:label>非実在物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#Any" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="生物">
+  <rdfs:label>生物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#実在物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="非生物">
+  <rdfs:label>非生物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#実在物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="哺乳類">
+  <rdfs:label>哺乳類</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#生物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="鳥類">
+  <rdfs:label>鳥類</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#生物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="爬虫類">
+  <rdfs:label>爬虫類</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#生物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="人間">
+  <rdfs:label>人間</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#哺乳類" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="物語">
+  <rdfs:label>物語</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#非実在物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="伝記">
+  <rdfs:label>伝記</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#物語" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="神話">
+  <rdfs:label>神話</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#物語" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="随想">
+  <rdfs:label>随想</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#物語" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="擬人化キャラクター">
+  <rdfs:label>擬人化キャラクター</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#キャラクター" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="その他のキャラクター">
+  <rdfs:label>その他のキャラクター</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#キャラクター" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="SFアニメ">
+  <rdfs:label>SFアニメ</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#アニメ" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="萌えアニメ">
+  <rdfs:label>萌えアニメ</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#アニメ" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="日常アニメ">
+  <rdfs:label>日常アニメ</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#アニメ" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="人工物">
+  <rdfs:label>人工物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#非生物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="自然物">
+  <rdfs:label>自然物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#非生物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="タンジブルな人工物">
+  <rdfs:label>タンジブルな人工物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#人工物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="インタンジブルな人工物">
+  <rdfs:label>インタンジブルな人工物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#人工物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="乗り物">
+  <rdfs:label>乗り物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#タンジブルな人工物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="空用乗り物">
+  <rdfs:label>空用乗り物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#乗り物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="陸用乗り物">
+  <rdfs:label>陸用乗り物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#乗り物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="海用乗り物">
+  <rdfs:label>海用乗り物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#乗り物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="映像作品">
+  <rdfs:label>映像作品</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#インタンジブルな人工物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="組織">
+  <rdfs:label>組織</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#インタンジブルな人工物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="メディア">
+  <rdfs:label>メディア</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#インタンジブルな人工物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="Web">
+  <rdfs:label>Web</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア（インフラ）" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="テレビ">
+  <rdfs:label>テレビ</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア（インフラ）" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="メディア（インフラ）">
+  <rdfs:label>メディア（インフラ）</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="メディア（情報形式）">
+  <rdfs:label>メディア（情報形式）</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="画像">
+  <rdfs:label>画像</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア（情報形式）" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="動画">
+  <rdfs:label>動画</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア（情報形式）" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="ラジオ">
+  <rdfs:label>ラジオ</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア（インフラ）" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="文字">
+  <rdfs:label>文字</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア（情報形式）" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="音声">
+  <rdfs:label>音声</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア（情報形式）" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="会社">
+  <rdfs:label>会社</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#組織" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="アニメ制作会社">
+  <rdfs:label>アニメ制作会社</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#会社" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="映画">
+  <rdfs:label>映画</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#メディア（インフラ）" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="鉱物">
+  <rdfs:label>鉱物</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#自然物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="属性">
+  <rdfs:label>属性</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#非実在物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="単位">
+  <rdfs:label>単位</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="時間単位">
+  <rdfs:label>時間単位</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#単位" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="分">
+  <rdfs:label>分</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#時間単位" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="時間">
+  <rdfs:label>時間</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#時間単位" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="秒">
+  <rdfs:label>秒</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#時間単位" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="職業">
+  <rdfs:label>職業</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#非実在物" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="声優">
+  <rdfs:label>声優</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#職業" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="性別属性">
+  <rdfs:label>性別属性</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="男性">
+  <rdfs:label>男性</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#性別属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="女性">
+  <rdfs:label>女性</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#性別属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="両性">
+  <rdfs:label>両性</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#性別属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="無性">
+  <rdfs:label>無性</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#性別属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="数値属性">
+  <rdfs:label>数値属性</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="日常の話">
+  <rdfs:label>日常の話</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#物語" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="感性属性">
+  <rdfs:label>感性属性</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="かわいい">
+  <rdfs:label>かわいい</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#感性属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="正の整数">
+  <rdfs:label>正の整数</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#整数" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="実数">
+  <rdfs:label>実数</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#数値属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="整数">
+  <rdfs:label>整数</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#数値属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="負の整数">
+  <rdfs:label>負の整数</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#整数" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="性格属性">
+  <rdfs:label>性格属性</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="正直者">
+  <rdfs:label>正直者</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#性格属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="ツンデレ">
+  <rdfs:label>ツンデレ</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#性格属性" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="アニメ製作者">
+  <rdfs:label>アニメ製作者</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#職業" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="equal">
+  <rdfs:label>equal</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#RelationalConcept" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="sameAs">
+  <rdfs:label>sameAs</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#RelationalConcept" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="larger-than">
+  <rdfs:label>larger-than</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#RelationalConcept" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="not-equal">
+  <rdfs:label>not-equal</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#RelationalConcept" />
+</rdfs:Class>
+<rdfs:Class rdf:ID="different">
+  <rdfs:label>different</rdfs:label>
+  <rdfs:subClassOf rdf:resource="#RelationalConcept" />
+</rdfs:Class>
+<rdf:Property rdf:about="hasPart">
+  <rdfs:label>hasPart</rdfs:label>
+</rdf:Property>
+<rdf:Property rdf:about="hasAttribute">
+  <rdfs:label>hasAttribute</rdfs:label>
+</rdf:Property>
+<rdf:Property rdf:about="has_作品名">
+  <rdfs:label>has_作品名</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasAttribute"/>
+  <rdfs:domain rdf:resource="#アニメ"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_流通形態">
+  <rdfs:label>has_流通形態</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasAttribute"/>
+  <rdfs:domain rdf:resource="#アニメ"/>
+  <rdfs:range rdf:resource="#メディア"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_放送の長さ">
+  <rdfs:label>has_放送の長さ</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasAttribute"/>
+  <rdfs:domain rdf:resource="#アニメ"/>
+  <rdfs:range rdf:resource="#時間単位"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_シナリオRole">
+  <rdfs:label>has_シナリオRole</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ"/>
+  <rdfs:range rdf:resource="#物語"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_制作陣role">
+  <rdfs:label>has_制作陣role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ"/>
+  <rdfs:range rdf:resource="#アニメ制作会社"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_制作会社role">
+  <rdfs:label>has_制作会社role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ制作会社"/>
+  <rdfs:range rdf:resource="#会社"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_監督role">
+  <rdfs:label>has_監督role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ制作会社"/>
+  <rdfs:range rdf:resource="#人間"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_キャストrole">
+  <rdfs:label>has_キャストrole</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ制作会社"/>
+  <rdfs:range rdf:resource="#人間"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_声優ロール">
+  <rdfs:label>has_声優ロール</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#人間"/>
+  <rdfs:range rdf:resource="#声優"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_作画担当role">
+  <rdfs:label>has_作画担当role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ制作会社"/>
+  <rdfs:range rdf:resource="#人間"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_シナリオ担当role">
+  <rdfs:label>has_シナリオ担当role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ制作会社"/>
+  <rdfs:range rdf:resource="#人間"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_演出担当role">
+  <rdfs:label>has_演出担当role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ制作会社"/>
+  <rdfs:range rdf:resource="#人間"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_出資者">
+  <rdfs:label>has_出資者</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ制作会社"/>
+  <rdfs:range rdf:resource="#会社"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_想定対象者">
+  <rdfs:label>has_想定対象者</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasAttribute"/>
+  <rdfs:domain rdf:resource="#アニメ"/>
+  <rdfs:range rdf:resource="#人間"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_年齢">
+  <rdfs:label>has_年齢</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#人間"/>
+  <rdfs:range rdf:resource="#正の整数"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_性別Role">
+  <rdfs:label>has_性別Role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#人間"/>
+  <rdfs:range rdf:resource="#性別属性"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_流通形態Role">
+  <rdfs:label>has_流通形態Role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#アニメ映画"/>
+  <rdfs:domain rdf:resource="#映像作品"/>
+  <rdfs:range rdf:resource="#メディア"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_名前">
+  <rdfs:label>has_名前</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasAttribute"/>
+  <rdfs:domain rdf:resource="#キャラクター"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_性別">
+  <rdfs:label>has_性別</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasAttribute"/>
+  <rdfs:domain rdf:resource="#キャラクター"/>
+  <rdfs:range rdf:resource="#性別属性"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_性格特性Role">
+  <rdfs:label>has_性格特性Role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasAttribute"/>
+  <rdfs:domain rdf:resource="#キャラクター"/>
+  <rdfs:range rdf:resource="#性格属性"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_外見特性Role">
+  <rdfs:label>has_外見特性Role</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasAttribute"/>
+  <rdfs:domain rdf:resource="#キャラクター"/>
+  <rdfs:range rdf:resource="#感性属性"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_ストーリー">
+  <rdfs:label>has_ストーリー</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#物語"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_登場キャラクターRole">
+  <rdfs:label>has_登場キャラクターRole</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasPart"/>
+  <rdfs:domain rdf:resource="#物語"/>
+  <rdfs:range rdf:resource="#Any"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_キャラクター特性">
+  <rdfs:label>has_キャラクター特性</rdfs:label>
+  <rdfs:subPropertyOf rdf:resource="hasAttribute"/>
+  <rdfs:domain rdf:resource="#キャラクター"/>
+  <rdfs:range rdf:resource="#かわいい"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_value">
+  <rdfs:label>has_value</rdfs:label>
+  <rdfs:domain rdf:resource="#equal"/>
+  <rdfs:domain rdf:resource="#not-equal"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_class">
+  <rdfs:label>has_class</rdfs:label>
+  <rdfs:domain rdf:resource="#sameAs"/>
+  <rdfs:domain rdf:resource="#different"/>
+  <rdfs:range rdf:resource="#Any"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_larger">
+  <rdfs:label>has_larger</rdfs:label>
+  <rdfs:domain rdf:resource="#larger-than"/>
+  <rdfs:range rdf:resource="#Any"/>
+</rdf:Property>
+<rdf:Property rdf:about="has_smaller">
+  <rdfs:label>has_smaller</rdfs:label>
+  <rdfs:domain rdf:resource="#larger-than"/>
+  <rdfs:range rdf:resource="#Any"/>
+</rdf:Property>
+</rdf:RDF>
+
