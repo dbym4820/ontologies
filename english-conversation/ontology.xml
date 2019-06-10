@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="ontology.xml" ont_id="1557721715402ont" >
+<FILENAME_ONT>ontology.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="3844" h="4814" x="35" y="0" />
+<CONCEPT id="1557721715402_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2" y="11"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715402_n1" >
+<LABEL>Abstract Things</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="34" y="104"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715402_n2" >
+<LABEL>Conclete Thing</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="186" y="34"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715402_n3" >
+<LABEL>Natural Thing</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="361" y="34"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715402_n4" >
+<LABEL>Art</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="244" y="221"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715402_n5" >
+<LABEL>Artificial Thing</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="279" y="116"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715402_n6" >
+<LABEL>Occupation</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="104" y="256"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715402_n7" >
+<LABEL>Being</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="583" y="46"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715402_n8" >
+<LABEL>Art Work</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="431" y="157"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715402_n9" >
+<LABEL>Material</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="485" y="88"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715000_n10" >
+<LABEL>Mammal</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="676" y="58"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721715000_n11" >
+<LABEL>Human</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="795" y="69"/>
+<SLOTS>
+<SLOT id="1557721739000_s12" 
+ type="NW"  label="slot"  kind="a/o"  num="0.."  role="name"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1557721739000_s13" 
+ type="NW"  label="slot2"  kind="a/o"  num="0.."  role="occupation"  class_constraint="Occupation"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Occupation" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721739000_n14" >
+<LABEL>Artist</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="163" y="305"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1557723034000_s15" 
+ type="NW"  label="slot2"  kind="p/o"  num="1.."  role="Work"  class_constraint="Art Work"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Art Work" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1557723034000_s16" 
+ type="NW"  label="slot"  kind="a/o"  num="1.."  role="Philosophy"  class_constraint="Art Philosophy"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Art Philosophy" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721902000_n15" >
+<LABEL>Paint</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="538" y="256"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721986000_n16" >
+<LABEL>Music</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="478" y="291"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557721986000_n17" >
+<LABEL>Literary</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="548" y="291"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722136000_n19" >
+<LABEL>Literary Author</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="221" y="468"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722136000_n20" >
+<LABEL>Musician</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="209" y="408"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722136000_n21" >
+<LABEL>Painter</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="221" y="373"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722366000_n23" >
+<LABEL>Thinking</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2" y="349"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722366000_n24" >
+<LABEL>Philosophy</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="23" y="443"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722366000_n25" >
+<LABEL>Art Philosophy</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="69" y="513"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722366000_n26" >
+<LABEL>Research Philosophy</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="46" y="562"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722648000_n27" >
+<LABEL>Movie</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="594" y="233"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722674000_n28" >
+<LABEL>Sculptor</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="513" y="211"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722708000_n29" >
+<LABEL>Tale</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="305" y="198"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722867000_n30" >
+<LABEL>terminology</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="220" y="581"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722867000_n31" >
+<LABEL>adjective</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="248" y="678"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722867000_n32" >
+<LABEL>positive adjective</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="221" y="794"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722867000_n33" >
+<LABEL>negative adjective</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="387" y="753"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722946000_n34" >
+<LABEL>Feeling</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="306" y="293"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722946000_n35" >
+<LABEL>Human Feeling</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="338" y="351"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722946000_n36" >
+<LABEL>Positive</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="365" y="408"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557722946000_n37" >
+<LABEL>Negative</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="485" y="410"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557735789000_n38" >
+<LABEL>place</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="567" y="84"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557735789000_n39" >
+<LABEL>natural place</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="724" y="177"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557735789000_n40" >
+<LABEL>artificial place</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="658" y="284"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557735789000_n41" >
+<LABEL>mountain</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="822" y="219"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557735789000_n42" >
+<LABEL>state</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="389" y="504"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557735789000_n43" >
+<LABEL>health</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="478" y="548"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557735789000_n44" >
+<LABEL>human health</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="567" y="583"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1557735789000_n45" >
+<LABEL>country</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="698" y="339"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560148888000_n46" >
+<LABEL>computer</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="364" y="202"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1557721715402_isa10" parent="Any" child="Abstract Things" />
+<ISA id="1557721715402_isa11" parent="Any" child="Conclete Thing" />
+<ISA id="1557721715402_isa12" parent="Conclete Thing" child="Natural Thing" />
+<ISA id="1557721715402_isa13" parent="Abstract Things" child="Art" />
+<ISA id="1557721715402_isa14" parent="Conclete Thing" child="Artificial Thing" />
+<ISA id="1557721715402_isa15" parent="Abstract Things" child="Occupation" />
+<ISA id="1557721715402_isa16" parent="Natural Thing" child="Being" />
+<ISA id="1557721715402_isa17" parent="Artificial Thing" child="Art Work" />
+<ISA id="1557721715402_isa18" parent="Natural Thing" child="Material" />
+<ISA id="1557721715000_isa21" parent="Being" child="Mammal" />
+<ISA id="1557721715000_isa22" parent="Mammal" child="Human" />
+<ISA id="1557721739000_isa28" parent="Occupation" child="Artist" />
+<ISA id="1557721902000_isa28" parent="Art Work" child="Paint" />
+<ISA id="1557721986000_isa31" parent="Art Work" child="Music" />
+<ISA id="1557721986000_isa32" parent="Art Work" child="Literary" />
+<ISA id="1557722136000_isa37" parent="Artist" child="Literary Author" />
+<ISA id="1557722136000_isa38" parent="Artist" child="Musician" />
+<ISA id="1557722136000_isa39" parent="Artist" child="Painter" />
+<ISA id="1557722366000_isa45" parent="Abstract Things" child="Thinking" />
+<ISA id="1557722366000_isa46" parent="Thinking" child="Philosophy" />
+<ISA id="1557722366000_isa47" parent="Philosophy" child="Art Philosophy" />
+<ISA id="1557722366000_isa48" parent="Philosophy" child="Research Philosophy" />
+<ISA id="1557722648000_isa50" parent="Art Work" child="Movie" />
+<ISA id="1557722674000_isa52" parent="Art Work" child="Sculptor" />
+<ISA id="1557722708000_isa54" parent="Abstract Things" child="Tale" />
+<ISA id="1557722867000_isa59" parent="Abstract Things" child="terminology" />
+<ISA id="1557722867000_isa60" parent="terminology" child="adjective" />
+<ISA id="1557722867000_isa61" parent="adjective" child="positive adjective" />
+<ISA id="1557722867000_isa62" parent="adjective" child="negative adjective" />
+<ISA id="1557722946000_isa67" parent="Abstract Things" child="Feeling" />
+<ISA id="1557722946000_isa68" parent="Feeling" child="Human Feeling" />
+<ISA id="1557722946000_isa69" parent="Human Feeling" child="Positive" />
+<ISA id="1557722946000_isa70" parent="Human Feeling" child="Negative" />
+<ISA id="1557735789000_isa79" parent="Natural Thing" child="place" />
+<ISA id="1557735789000_isa80" parent="place" child="natural place" />
+<ISA id="1557735789000_isa81" parent="place" child="artificial place" />
+<ISA id="1557735789000_isa82" parent="natural place" child="mountain" />
+<ISA id="1557735789000_isa83" parent="Abstract Things" child="state" />
+<ISA id="1557735789000_isa84" parent="state" child="health" />
+<ISA id="1557735789000_isa85" parent="health" child="human health" />
+<ISA id="1557735789000_isa86" parent="artificial place" child="country" />
+<ISA id="1560148888000_isa88" parent="Artificial Thing" child="computer" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="3295" h="4127" />
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.0" h="842.0" iw="559.0" ih="783.0" ix="18.0" iy="18.0" />
+<PRINTER_SETTINGS orientation="1" printername="LBP9200C" />
+</PRINTER>
+</OE_FILE>
