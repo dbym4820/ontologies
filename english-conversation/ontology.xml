@@ -386,7 +386,7 @@
 <LABEL>natural place</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="724" y="177"/>
+<POS x="725" y="178"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -450,7 +450,15 @@
 <SUB_LABELS>
 </SUB_LABELS>
 <POS x="698" y="339"/>
-<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="0_s46" 
+ type="NW"  label="slot"  kind="p/o"  num="0.."  role="territory"  class_constraint="place"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="place" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -460,6 +468,75 @@
 <SUB_LABELS>
 </SUB_LABELS>
 <POS x="364" y="202"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="0_n47" >
+<LABEL>Germany</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="886" y="351"/>
+<SLOTS>
+<SLOT id="0_s49" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="territory"  class_constraint="mountain"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="country$slot"/>
+<SUB_L label="" def="" role_name="" class_const="mountain" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="0_s50" 
+ type="OR"  label="slot2"  kind="p/o"  num="0.."  role="territory"  class_constraint="river"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="country$slot"/>
+<SUB_L label="" def="" role_name="" class_const="river" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="0_s51" 
+ type="OR"  label="slot3"  kind="p/o"  num="0.."  role="territory"  class_constraint="sea"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="country$slot"/>
+<SUB_L label="" def="" role_name="" class_const="sea" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="0_s52" 
+ type="OR"  label="slot4"  kind="p/o"  num="0.."  role="territory"  class_constraint="building"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="country$slot"/>
+<SUB_L label="" def="" role_name="" class_const="building" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="0_n52" >
+<LABEL>river</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="792" y="243"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="0_n53" >
+<LABEL>sea</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="867" y="187"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="0_n54" >
+<LABEL>building</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="780" y="298"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -507,9 +584,13 @@
 <ISA id="1557735789000_isa85" parent="health" child="human health" />
 <ISA id="1557735789000_isa86" parent="artificial place" child="country" />
 <ISA id="1560148888000_isa88" parent="Artificial Thing" child="computer" />
+<ISA id="0_isa90" parent="country" child="Germany" />
+<ISA id="0_isa98" parent="natural place" child="river" />
+<ISA id="0_isa99" parent="natural place" child="sea" />
+<ISA id="0_isa100" parent="artificial place" child="building" />
 </W_CONCEPTS>
 <R_CONCEPTS>
-<CANVAS_SIZE w="3295" h="4127" />
+<CANVAS_SIZE w="3454" h="4269" />
 </R_CONCEPTS>
 <PRINTER>
 <PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
