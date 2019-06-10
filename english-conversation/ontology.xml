@@ -315,7 +315,9 @@
 <LABEL>positive adjective</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="221" y="794"/>
+<POS x="221" y="792"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -324,7 +326,8 @@
 <LABEL>negative adjective</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="387" y="753"/>
+<POS x="388" y="754"/>
+<SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -396,7 +399,7 @@
 <LABEL>artificial place</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="658" y="284"/>
+<POS x="658" y="283"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -458,6 +461,12 @@
 </SUB_LABELS>
 <SUB_L label="" def="" role_name="" class_const="place" rh_name ="" value ="" />
 </SLOT>
+<SLOT id="1560179435000_s47" 
+ type="NW"  label="slot2"  kind="p/o"  num="1.."  role="country name"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
 </SLOTS>
 <RELATIONS>
 </RELATIONS>
@@ -480,42 +489,48 @@
 <POS x="887" y="351"/>
 <SLOTS>
 <SLOT id="0_s49" 
- type="OR"  label="slot"  kind="p/o"  num="1.."  role="territory"  class_constraint="mountain"  rh_name=""  value="" >
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="Germany mountain"  class_constraint="mountain"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
-<PART_TREE>close</PART_TREE>
 <PARENT_SLOT slot="country$slot"/>
 <SUB_L label="" def="" role_name="" class_const="mountain" rh_name ="" value ="" />
 </SLOT>
 <SLOT id="0_s50" 
- type="OR"  label="slot2"  kind="p/o"  num="0.."  role="territory"  class_constraint="river"  rh_name=""  value="" >
+ type="OR"  label="slot2"  kind="p/o"  num="0.."  role="Germany river"  class_constraint="river"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
+<PART_TREE>close</PART_TREE>
 <PARENT_SLOT slot="country$slot"/>
 <SUB_L label="" def="" role_name="" class_const="river" rh_name ="" value ="" />
 </SLOT>
 <SLOT id="0_s51" 
- type="OR"  label="slot3"  kind="p/o"  num="0.."  role="territory"  class_constraint="sea"  rh_name=""  value="" >
+ type="OR"  label="slot3"  kind="p/o"  num="0.."  role="Germany sea"  class_constraint="sea"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
-<PART_TREE>close</PART_TREE>
 <PARENT_SLOT slot="country$slot"/>
 <SUB_L label="" def="" role_name="" class_const="sea" rh_name ="" value ="" />
 </SLOT>
 <SLOT id="0_s52" 
- type="OR"  label="slot4"  kind="p/o"  num="0.."  role="territory"  class_constraint="building"  rh_name=""  value="" >
-<SUB_LABELS>
-</SUB_LABELS>
-<PARENT_SLOT slot="country$slot"/>
-<SUB_L label="" def="" role_name="" class_const="building" rh_name ="" value ="" />
-</SLOT>
-<SLOT id="1560178294000_s53" 
- type="OR"  label="slot5"  kind="p/o"  num="0.."  role="territory"  class_constraint="lake"  rh_name=""  value="" >
+ type="OR"  label="slot4"  kind="p/o"  num="0.."  role="Germany building"  class_constraint="building"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
 <PART_TREE>close</PART_TREE>
 <PARENT_SLOT slot="country$slot"/>
+<SUB_L label="" def="" role_name="" class_const="building" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1560178294000_s53" 
+ type="OR"  label="slot5"  kind="p/o"  num="0.."  role="Germany lake"  class_constraint="lake"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="country$slot"/>
 <SUB_L label="" def="" role_name="" class_const="lake" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1560179435000_s55" 
+ type="OR"  label="slot22"  kind="p/o"  num="1.."  role="country name"  class_constraint="string"  rh_name=""  value="Germany" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="country$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
 </SLOT>
 </SLOTS>
 <RELATIONS>
@@ -563,7 +578,176 @@
 <LABEL>Japan</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="787" y="483"/>
+<POS x="749" y="487"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560179435000_n59" >
+<LABEL>oneself</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="973" y="20"/>
+<SLOTS>
+<SLOT id="1560179435000_s60" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="place"  class_constraint="place"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="place" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1560182375000_s63" 
+ type="NW"  label="slot2"  kind="p/o"  num="0.."  role="name"  class_constraint="string"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="string" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n64" >
+<LABEL>good</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="190" y="832"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n65" >
+<LABEL>nice</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="197" y="855"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n66" >
+<LABEL>fun</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="230" y="875"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n67" >
+<LABEL>funny</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="233" y="842"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n68" >
+<LABEL>interesting</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="277" y="883"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n69" >
+<LABEL>great</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="156" y="824"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n70" >
+<LABEL>wonderful</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="171" y="883"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n71" >
+<LABEL>awesome</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="241" y="908"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n72" >
+<LABEL>perfect</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="312" y="909"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n73" >
+<LABEL>like</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="148" y="858"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n74" >
+<LABEL>love</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="297" y="862"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n75" >
+<LABEL>beautiful</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="152" y="918"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n76" >
+<LABEL>bad</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="413" y="832"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n77" >
+<LABEL>strange</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="482" y="794"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n78" >
+<LABEL>dislike</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="451" y="829"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560182512000_n79" >
+<LABEL>hate</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="509" y="768"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -616,6 +800,23 @@
 <ISA id="0_isa100" parent="artificial place" child="building" />
 <ISA id="1560178294000_isa104" parent="natural place" child="lake" />
 <ISA id="1560179050000_isa106" parent="country" child="Japan" />
+<ISA id="1560179435000_isa109" parent="Conclete Thing" child="oneself" />
+<ISA id="1560182512000_isa119" parent="positive adjective" child="good" />
+<ISA id="1560182512000_isa120" parent="positive adjective" child="nice" />
+<ISA id="1560182512000_isa121" parent="positive adjective" child="fun" />
+<ISA id="1560182512000_isa122" parent="positive adjective" child="funny" />
+<ISA id="1560182512000_isa123" parent="positive adjective" child="interesting" />
+<ISA id="1560182512000_isa124" parent="positive adjective" child="great" />
+<ISA id="1560182512000_isa131" parent="positive adjective" child="wonderful" />
+<ISA id="1560182512000_isa132" parent="positive adjective" child="awesome" />
+<ISA id="1560182512000_isa133" parent="positive adjective" child="perfect" />
+<ISA id="1560182512000_isa134" parent="positive adjective" child="like" />
+<ISA id="1560182512000_isa135" parent="positive adjective" child="love" />
+<ISA id="1560182512000_isa136" parent="positive adjective" child="beautiful" />
+<ISA id="1560182512000_isa141" parent="negative adjective" child="bad" />
+<ISA id="1560182512000_isa142" parent="negative adjective" child="strange" />
+<ISA id="1560182512000_isa143" parent="negative adjective" child="dislike" />
+<ISA id="1560182512000_isa144" parent="negative adjective" child="hate" />
 </W_CONCEPTS>
 <R_CONCEPTS>
 <CANVAS_SIZE w="3454" h="4269" />
