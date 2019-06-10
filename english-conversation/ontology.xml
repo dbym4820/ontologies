@@ -752,6 +752,160 @@
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
 </CONCEPT>
+<CONCEPT id="1560183005000_n80" >
+<LABEL>other person</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1168" y="24"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560183005000_n81" >
+<LABEL>question</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="581" y="690"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560183005000_n82" >
+<LABEL>english-question</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="638" y="730"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560183005000_n83" instantiation="true" >
+<LABEL>Who [?x1]?</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="828" y="662"/>
+<SLOTS>
+<SLOT id="1560185945000_s84" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="am I"  class_constraint="x1"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="x1" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1560185945000_s85" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="are you"  class_constraint="x1"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="x1" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560183005000_n84" instantiation="true" >
+<LABEL>What are you [?x1]?</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="722" y="789"/>
+<SLOTS>
+<SLOT id="1560183005000_s85" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="major in"  class_constraint="x1"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="x1" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560185945000_n86" >
+<LABEL>mathmatical tool</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="152" y="639"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560185945000_n87" >
+<LABEL>variable</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="137" y="678"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560185945000_n88" instantiation="true" >
+<LABEL>x1</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="53" y="736"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560185945000_n89" instantiation="true" >
+<LABEL>x2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="65" y="758"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560185945000_n90" instantiation="true" >
+<LABEL>x3</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="88" y="760"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560185945000_n91" instantiation="true" >
+<LABEL>x4</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="112" y="758"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1560186330000_n94" instantiation="true" >
+<LABEL>What is [?x1]?</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="693" y="869"/>
+<SLOTS>
+<SLOT id="1560186330000_s95" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="your purpose"  class_constraint="x1"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="x1" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1560186330000_s96" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="this event"  class_constraint="x1"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="x1" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
 <ISA id="1557721715402_isa10" parent="Any" child="Abstract Things" />
 <ISA id="1557721715402_isa11" parent="Any" child="Conclete Thing" />
 <ISA id="1557721715402_isa12" parent="Conclete Thing" child="Natural Thing" />
@@ -817,9 +971,21 @@
 <ISA id="1560182512000_isa142" parent="negative adjective" child="strange" />
 <ISA id="1560182512000_isa143" parent="negative adjective" child="dislike" />
 <ISA id="1560182512000_isa144" parent="negative adjective" child="hate" />
+<ISA id="1560183005000_isa146" parent="Conclete Thing" child="other person" />
+<ISA id="1560183005000_isa150" parent="Abstract Things" child="question" />
+<ISA id="1560183005000_isa151" parent="question" child="english-question" />
+<ISA id="1560183005000_isa152" parent="english-question" child="Who [?x1]?" />
+<ISA id="1560183005000_isa155" parent="english-question" child="What are you [?x1]?" />
+<ISA id="1560185945000_isa162" parent="Abstract Things" child="mathmatical tool" />
+<ISA id="1560185945000_isa163" parent="mathmatical tool" child="variable" />
+<ISA id="1560185945000_isa164" parent="variable" child="x1" />
+<ISA id="1560185945000_isa165" parent="variable" child="x2" />
+<ISA id="1560185945000_isa166" parent="variable" child="x3" />
+<ISA id="1560185945000_isa167" parent="variable" child="x4" />
+<ISA id="1560186330000_isa172" parent="english-question" child="What is [?x1]?" />
 </W_CONCEPTS>
 <R_CONCEPTS>
-<CANVAS_SIZE w="3454" h="4269" />
+<CANVAS_SIZE w="3629" h="4425" />
 </R_CONCEPTS>
 <PRINTER>
 <PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
