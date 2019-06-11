@@ -2,7 +2,7 @@
 <OE_FILE filename="ontology.xml" ont_id="1557721715402ont" >
 <FILENAME_ONT>ontology.xml</FILENAME_ONT>
 <W_CONCEPTS>
-<CANVAS_SIZE w="5432" h="6260" x="20" y="464" />
+<CANVAS_SIZE w="6772" h="7718" x="409" y="737" />
 <CONCEPT id="1557721715402_n0" >
 <LABEL>Any</LABEL>
 <SUB_LABELS>
@@ -17,7 +17,7 @@
 <LABEL>Abstract Things</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="20" y="100"/>
+<POS x="23" y="116"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -27,7 +27,7 @@
 <LABEL>Conclete Thing</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="180" y="20"/>
+<POS x="209" y="23"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -38,7 +38,7 @@
 <LABEL>Natural Thing</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="360" y="20"/>
+<POS x="419" y="23"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -48,7 +48,7 @@
 <LABEL>Art</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="240" y="220"/>
+<POS x="279" y="256"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -57,7 +57,7 @@
 <LABEL>Artificial Thing</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="260" y="100"/>
+<POS x="303" y="116"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -67,7 +67,7 @@
 <LABEL>Occupation</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="100" y="240"/>
+<POS x="116" y="279"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -78,7 +78,7 @@
 <LABEL>Being</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="580" y="40"/>
+<POS x="676" y="46"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -88,7 +88,7 @@
 <LABEL>Art Work</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="420" y="140"/>
+<POS x="489" y="163"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -98,7 +98,7 @@
 <LABEL>Material</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="480" y="80"/>
+<POS x="559" y="93"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -107,7 +107,7 @@
 <LABEL>Mammal</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="660" y="40"/>
+<POS x="769" y="46"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -118,7 +118,7 @@
 <LABEL>Human</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="780" y="60"/>
+<POS x="909" y="69"/>
 <SLOTS>
 <SLOT id="1557721739000_s12" 
  type="NW"  label="slot"  kind="a/o"  num="0.."  role="name"  class_constraint="string"  rh_name=""  value="" >
@@ -141,7 +141,7 @@
 <LABEL>Artist</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="160" y="300"/>
+<POS x="186" y="349"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <SLOTS>
@@ -166,7 +166,7 @@
 <LABEL>Paint</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="520" y="240"/>
+<POS x="606" y="279"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -175,7 +175,7 @@
 <LABEL>Music</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="460" y="280"/>
+<POS x="536" y="326"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -185,7 +185,7 @@
 <LABEL>Literary</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="540" y="280"/>
+<POS x="629" y="326"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -195,7 +195,7 @@
 <LABEL>Literary Author</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="220" y="460"/>
+<POS x="256" y="536"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -204,7 +204,7 @@
 <LABEL>Musician</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="200" y="400"/>
+<POS x="233" y="466"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -214,7 +214,7 @@
 <LABEL>Painter</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="220" y="360"/>
+<POS x="256" y="419"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -224,7 +224,7 @@
 <LABEL>Thinking</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="0" y="340"/>
+<POS x="0" y="396"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -235,7 +235,7 @@
 <LABEL>Philosophy</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="20" y="440"/>
+<POS x="23" y="513"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -246,7 +246,7 @@
 <LABEL>Art Philosophy</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="60" y="500"/>
+<POS x="69" y="583"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -256,7 +256,7 @@
 <LABEL>Research Philosophy</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="40" y="560"/>
+<POS x="46" y="653"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -266,7 +266,7 @@
 <LABEL>Movie</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="580" y="220"/>
+<POS x="676" y="256"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -276,7 +276,7 @@
 <LABEL>Sculptor</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="500" y="200"/>
+<POS x="583" y="233"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -286,7 +286,7 @@
 <LABEL>Tale</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="300" y="180"/>
+<POS x="349" y="209"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -295,7 +295,7 @@
 <LABEL>terminology</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="220" y="580"/>
+<POS x="256" y="676"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -305,7 +305,7 @@
 <LABEL>adjective</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="240" y="660"/>
+<POS x="279" y="769"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -315,7 +315,7 @@
 <LABEL>positive adjective</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="220" y="780"/>
+<POS x="256" y="909"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -326,7 +326,7 @@
 <LABEL>negative adjective</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="380" y="740"/>
+<POS x="443" y="863"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -336,7 +336,7 @@
 <LABEL>Feeling</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="300" y="280"/>
+<POS x="349" y="326"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -347,7 +347,7 @@
 <LABEL>Human Feeling</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="320" y="340"/>
+<POS x="373" y="396"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -358,7 +358,7 @@
 <LABEL>Positive</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="360" y="400"/>
+<POS x="419" y="466"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -368,7 +368,7 @@
 <LABEL>Negative</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="480" y="400"/>
+<POS x="559" y="466"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -378,7 +378,7 @@
 <LABEL>place</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="560" y="80"/>
+<POS x="653" y="93"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -389,7 +389,7 @@
 <LABEL>natural place</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="720" y="160"/>
+<POS x="839" y="186"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -399,7 +399,7 @@
 <LABEL>artificial place</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="640" y="280"/>
+<POS x="746" y="326"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -410,7 +410,7 @@
 <LABEL>mountain</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="820" y="200"/>
+<POS x="956" y="233"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -420,7 +420,7 @@
 <LABEL>state</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="380" y="500"/>
+<POS x="443" y="583"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -431,7 +431,7 @@
 <LABEL>health</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="460" y="540"/>
+<POS x="536" y="629"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -442,7 +442,7 @@
 <LABEL>human health</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="560" y="580"/>
+<POS x="653" y="676"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -452,7 +452,7 @@
 <LABEL>country</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="680" y="320"/>
+<POS x="793" y="373"/>
 <SUB_TREE>open</SUB_TREE>
 <SLOTS>
 <SLOT id="0_s46" 
@@ -476,7 +476,7 @@
 <LABEL>computer</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="360" y="200"/>
+<POS x="419" y="233"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -486,7 +486,7 @@
 <LABEL>Germany</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="900" y="280"/>
+<POS x="1049" y="326"/>
 <SLOTS>
 <SLOT id="0_s49" 
  type="OR"  label="slot"  kind="p/o"  num="1.."  role="Germany mountain"  class_constraint="mountain"  rh_name=""  value="" >
@@ -541,7 +541,7 @@
 <LABEL>river</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="780" y="240"/>
+<POS x="909" y="279"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -550,7 +550,7 @@
 <LABEL>sea</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="860" y="180"/>
+<POS x="1003" y="209"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -559,7 +559,7 @@
 <LABEL>building</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="780" y="280"/>
+<POS x="909" y="326"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -569,7 +569,7 @@
 <LABEL>lake</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="900" y="200"/>
+<POS x="1049" y="233"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -578,7 +578,7 @@
 <LABEL>Japan</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="740" y="480"/>
+<POS x="863" y="559"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -587,7 +587,7 @@
 <LABEL>oneself</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="960" y="20"/>
+<POS x="1119" y="23"/>
 <SLOTS>
 <SLOT id="1560179435000_s60" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="place"  class_constraint="place"  rh_name=""  value="" >
@@ -610,7 +610,7 @@
 <LABEL>good</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="180" y="820"/>
+<POS x="209" y="956"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -619,7 +619,7 @@
 <LABEL>nice</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="180" y="840"/>
+<POS x="209" y="979"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -628,7 +628,7 @@
 <LABEL>fun</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="220" y="860"/>
+<POS x="256" y="1003"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -637,7 +637,7 @@
 <LABEL>funny</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="220" y="840"/>
+<POS x="256" y="979"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -646,7 +646,7 @@
 <LABEL>interesting</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="260" y="880"/>
+<POS x="303" y="1026"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -655,7 +655,7 @@
 <LABEL>great</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="140" y="820"/>
+<POS x="163" y="956"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -664,7 +664,7 @@
 <LABEL>wonderful</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="160" y="880"/>
+<POS x="186" y="1026"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -673,7 +673,7 @@
 <LABEL>awesome</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="240" y="900"/>
+<POS x="279" y="1049"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -682,7 +682,7 @@
 <LABEL>perfect</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="300" y="900"/>
+<POS x="349" y="1049"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -691,7 +691,7 @@
 <LABEL>like</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="140" y="840"/>
+<POS x="163" y="979"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -700,7 +700,7 @@
 <LABEL>love</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="280" y="860"/>
+<POS x="326" y="1003"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -709,7 +709,7 @@
 <LABEL>beautiful</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="140" y="900"/>
+<POS x="163" y="1049"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -718,7 +718,7 @@
 <LABEL>bad</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="400" y="820"/>
+<POS x="466" y="956"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -727,7 +727,7 @@
 <LABEL>strange</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="480" y="780"/>
+<POS x="559" y="909"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -737,7 +737,7 @@
 <LABEL>dislike</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="440" y="820"/>
+<POS x="513" y="956"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -747,7 +747,7 @@
 <LABEL>hate</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="500" y="760"/>
+<POS x="583" y="886"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -756,7 +756,7 @@
 <LABEL>other person</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1160" y="20"/>
+<POS x="1353" y="23"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -766,7 +766,7 @@
 <LABEL>question</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="440" y="640"/>
+<POS x="513" y="746"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -777,7 +777,7 @@
 <LABEL>english-question</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="520" y="700"/>
+<POS x="606" y="816"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -787,7 +787,7 @@
 <LABEL>Who [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="620" y="1060"/>
+<POS x="723" y="1236"/>
 <SLOTS>
 <SLOT id="1560185945000_s84" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="am I"  class_constraint="x1"  rh_name=""  value="" >
@@ -810,7 +810,7 @@
 <LABEL>What are you [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="904" y="616"/>
+<POS x="1054" y="718"/>
 <SLOTS>
 <SLOT id="1560183005000_s85" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="major in"  class_constraint="x1"  rh_name=""  value="" >
@@ -833,7 +833,7 @@
 <LABEL>mathmatical tool</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="140" y="620"/>
+<POS x="163" y="723"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -844,7 +844,7 @@
 <LABEL>variable</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="120" y="660"/>
+<POS x="139" y="769"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -854,7 +854,7 @@
 <LABEL>x1</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="40" y="720"/>
+<POS x="46" y="839"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -864,7 +864,7 @@
 <LABEL>x2</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="60" y="740"/>
+<POS x="69" y="863"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -874,7 +874,7 @@
 <LABEL>x3</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="80" y="760"/>
+<POS x="93" y="886"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -883,17 +883,17 @@
 <LABEL>x4</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="100" y="740"/>
+<POS x="116" y="863"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
 </CONCEPT>
 <CONCEPT id="1560186330000_n94" instantiation="true" >
-<LABEL>What is [?]?</LABEL>
+<LABEL>What is [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="764" y="676"/>
+<POS x="892" y="788"/>
 <SLOTS>
 <SLOT id="1560186330000_s95" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="your purpose"  class_constraint="x1"  rh_name=""  value="" >
@@ -922,7 +922,7 @@
 <LABEL>How [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1756" y="516"/>
+<POS x="2048" y="601"/>
 <SLOTS>
 <SLOT id="1560194185000_s98" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="have you been"  class_constraint="x1"  rh_name=""  value="" >
@@ -957,7 +957,7 @@
 <LABEL>What is the most [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1064" y="636"/>
+<POS x="1241" y="741"/>
 <SLOTS>
 <SLOT id="1560192931000_s99" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="famous person in this place"  class_constraint="x1"  rh_name=""  value="" >
@@ -987,7 +987,7 @@
 <LABEL>How can I [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1584" y="516"/>
+<POS x="1847" y="601"/>
 <SLOTS>
 <SLOT id="1560194542000_s106" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="enjoy this event"  class_constraint="x1"  rh_name=""  value="" >
@@ -1010,7 +1010,7 @@
 <LABEL>Where are [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1000" y="1260"/>
+<POS x="1166" y="1469"/>
 <SLOTS>
 <SLOT id="1560194185000_s105" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="you come from"  class_constraint="x1"  rh_name=""  value="" >
@@ -1034,7 +1034,7 @@
 <LABEL>When [?x]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1568" y="980"/>
+<POS x="1829" y="1143"/>
 <SLOTS>
 <SLOT id="1560194960000_s111" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="started this event"  class_constraint="x1"  rh_name=""  value="" >
@@ -1057,7 +1057,7 @@
 <LABEL>[?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1456" y="1320"/>
+<POS x="1698" y="1539"/>
 <SLOTS>
 <SLOT id="1560195573000_s118" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="It&apos;s a beautiful day, isn&apos;t it"  class_constraint="x1"  rh_name=""  value="" >
@@ -1074,7 +1074,7 @@
 <LABEL>What were [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1084" y="856"/>
+<POS x="1264" y="998"/>
 <SLOTS>
 <SLOT id="1560194542000_s113" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="you doing yesterday"  class_constraint="x1"  rh_name=""  value="" >
@@ -1091,7 +1091,7 @@
 <LABEL>Can you [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="428" y="1460"/>
+<POS x="499" y="1703"/>
 <SLOTS>
 <SLOT id="1560195686000_s122" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="tell me what this event is"  class_constraint="x1"  rh_name=""  value="" >
@@ -1108,7 +1108,7 @@
 <LABEL>Where are you [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="720" y="1220"/>
+<POS x="839" y="1423"/>
 <SLOTS>
 <SLOT id="1560194542000_s117" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="staying"  class_constraint="x1"  rh_name=""  value="" >
@@ -1125,7 +1125,7 @@
 <LABEL>Where [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="880" y="1160"/>
+<POS x="1026" y="1353"/>
 <SLOTS>
 <SLOT id="1560194185000_s114" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="am I "  class_constraint="x1"  rh_name=""  value="" >
@@ -1149,7 +1149,7 @@
 <LABEL>What will [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="964" y="756"/>
+<POS x="1124" y="881"/>
 <SLOTS>
 <SLOT id="1560194960000_s129" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="you do tommorow"  class_constraint="x1"  rh_name=""  value="" >
@@ -1172,7 +1172,7 @@
 <LABEL>Where is [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="840" y="1260"/>
+<POS x="979" y="1469"/>
 <SLOTS>
 <SLOT id="1560194185000_s121" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="here"  class_constraint="x1"  rh_name=""  value="" >
@@ -1186,10 +1186,11 @@
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
 </CONCEPT>
 <CONCEPT id="1560192702000_n116" instantiation="true" >
-<LABEL>What [?x]?</LABEL>
+<LABEL>What [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="864" y="836"/>
+<POS x="1007" y="975"/>
+<PART_TREE>close</PART_TREE>
 <SLOTS>
 <SLOT id="1560193870000_s118" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="kind of persons are here"  class_constraint="x1"  rh_name=""  value="" >
@@ -1218,7 +1219,7 @@
 <LABEL>Who is the most [?x1] [?x2]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="436" y="1020"/>
+<POS x="508" y="1189"/>
 <SLOTS>
 <SLOT id="1560192931000_s119" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="famous person"  class_constraint="x1"  rh_name=""  value="" >
@@ -1260,7 +1261,7 @@
 <LABEL>Who is [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="600" y="960"/>
+<POS x="699" y="1119"/>
 <SLOTS>
 <SLOT id="1560194542000_s135" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="this city&apos;s mayor"  class_constraint="x1"  rh_name=""  value="" >
@@ -1277,7 +1278,7 @@
 <LABEL>When this building was built?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1509" y="1096"/>
+<POS x="1760" y="1278"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -1286,7 +1287,7 @@
 <LABEL>Why is [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="52" y="1224"/>
+<POS x="60" y="1427"/>
 <SLOTS>
 <SLOT id="1560194542000_s140" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="this event has been held"  class_constraint="x1"  rh_name=""  value="" >
@@ -1303,7 +1304,7 @@
 <LABEL>Why are you [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="240" y="1292"/>
+<POS x="279" y="1507"/>
 <SLOTS>
 <SLOT id="1560193870000_s128" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="come here"  class_constraint="x1"  rh_name=""  value="" >
@@ -1326,7 +1327,7 @@
 <LABEL>Do you [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="80" y="1408"/>
+<POS x="93" y="1642"/>
 <SLOTS>
 <SLOT id="1560195686000_s151" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="have any question"  class_constraint="x1"  rh_name=""  value="" >
@@ -1349,7 +1350,7 @@
 <LABEL>How is [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1736" y="436"/>
+<POS x="2025" y="508"/>
 <SLOTS>
 <SLOT id="1560194185000_s138" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="today&apos;s weather"  class_constraint="x1"  rh_name=""  value="" >
@@ -1366,7 +1367,7 @@
 <LABEL>Could you [?x1]?</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="860" y="1420"/>
+<POS x="1003" y="1656"/>
 <SLOTS>
 <SLOT id="1560195246000_s157" 
  type="NW"  label="slot"  kind="p/o"  num="1"  role="tell me about this event"  class_constraint="x1"  rh_name=""  value="" >
@@ -1455,7 +1456,7 @@
 <ISA id="1560185945000_isa165" parent="variable" child="x2" />
 <ISA id="1560185945000_isa166" parent="variable" child="x3" />
 <ISA id="1560185945000_isa167" parent="variable" child="x4" />
-<ISA id="1560186330000_isa172" parent="english-question" child="What is [?]?" />
+<ISA id="1560186330000_isa172" parent="english-question" child="What is [?x1]?" />
 <ISA id="1560186390000_isa180" parent="english-question" child="How [?x1]?" />
 <ISA id="1560186390000_isa181" parent="english-question" child="What is the most [?x1]?" />
 <ISA id="1560186390000_isa182" parent="english-question" child="How can I [?x1]?" />
@@ -1468,7 +1469,7 @@
 <ISA id="1560186390000_isa201" parent="english-question" child="Where [?x1]?" />
 <ISA id="1560192702000_isa210" parent="english-question" child="What will [?x1]?" />
 <ISA id="1560192702000_isa211" parent="english-question" child="Where is [?x1]?" />
-<ISA id="1560192702000_isa220" parent="english-question" child="What [?x]?" />
+<ISA id="1560192702000_isa220" parent="english-question" child="What [?x1]?" />
 <ISA id="1560192702000_isa221" parent="english-question" child="Who is the most [?x1] [?x2]?" />
 <ISA id="1560192702000_isa222" parent="english-question" child="Who is [?x1]?" />
 <ISA id="1560192702000_isa223" parent="english-question" child="When this building was built?" />
@@ -1479,7 +1480,7 @@
 <ISA id="1560195246000_isa261" parent="english-question" child="Could you [?x1]?" />
 </W_CONCEPTS>
 <R_CONCEPTS>
-<CANVAS_SIZE w="5090" h="5768" />
+<CANVAS_SIZE w="5429" h="6074" />
 </R_CONCEPTS>
 <PRINTER>
 <PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
