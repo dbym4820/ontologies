@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="行為概念.xml" ont_id="1563508770090ont" >
+<FILENAME_ONT>行為概念.xml</FILENAME_ONT>
+<W_CONCEPTS>
+<CANVAS_SIZE w="2000" h="3000" x="1" y="0" />
+<CONCEPT id="1563508770090_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="20"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770090_n1" >
+<LABEL>行為</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="97" y="145"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1563508770000_s2" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="入力（行為前状態）"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1563508770000_s3" 
+ type="NW"  label="slot2"  kind="p/o"  num="1.."  role="出力（行為後状態）"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770090_n2" >
+<LABEL>単純行為</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="402" y="166"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770090_n3" >
+<LABEL>複合行為</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="147" y="268"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770090_n4" >
+<LABEL>単純他動詞行為</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="459" y="239"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770090_n5" >
+<LABEL>単純自動詞行為</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="515" y="133"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770090_n6" >
+<LABEL>複合自動詞行為</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="244" y="334"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770090_n7" >
+<LABEL>複合他動詞行為</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="101" y="386"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n10" >
+<LABEL>食べる</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="676" y="242"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n11" >
+<LABEL>読む</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="512" y="383"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n12" >
+<LABEL>見る</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="632" y="331"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n13" >
+<LABEL>治る</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="612" y="87"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n14" >
+<LABEL>増える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="661" y="118"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n15" >
+<LABEL>増やす</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="690" y="280"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n16" >
+<LABEL>減らす</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="699" y="322"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n17" >
+<LABEL>減る</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="654" y="152"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n18" >
+<LABEL>学ぶ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="353" y="435"/>
+<SLOTS>
+<SLOT id="1563508770000_s19" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="事前に持っている知識"  class_constraint="知識"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="行為$slot"/>
+<SUB_L label="" def="" role_name="" class_const="知識" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1563508770000_s20" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="新しく得た知識"  class_constraint="知識"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="行為$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="知識" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1563508770000_rc21" label="larger-than" ><POS x="779" y="492"/>
+<ARC label="smaller">学ぶ$slot</ARC>
+<ARC label="larger">学ぶ$slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n22" >
+<LABEL>教える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="78" y="454"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n23" >
+<LABEL>知識</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="138" y="37"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1563508770000_n24" >
+<LABEL>スキル</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="213" y="24"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1563508770090_isa8" parent="Any" child="行為" />
+<ISA id="1563508770090_isa9" parent="行為" child="単純行為" />
+<ISA id="1563508770090_isa10" parent="行為" child="複合行為" />
+<ISA id="1563508770090_isa11" parent="単純行為" child="単純他動詞行為" />
+<ISA id="1563508770090_isa12" parent="単純行為" child="単純自動詞行為" />
+<ISA id="1563508770090_isa13" parent="複合行為" child="複合自動詞行為" />
+<ISA id="1563508770090_isa14" parent="複合行為" child="複合他動詞行為" />
+<ISA id="1563508770000_isa32" parent="単純他動詞行為" child="食べる" />
+<ISA id="1563508770000_isa33" parent="単純他動詞行為" child="見る" />
+<ISA id="1563508770000_isa34" parent="単純他動詞行為" child="読む" />
+<ISA id="1563508770000_isa35" parent="単純自動詞行為" child="治る" />
+<ISA id="1563508770000_isa36" parent="単純自動詞行為" child="増える" />
+<ISA id="1563508770000_isa37" parent="単純他動詞行為" child="増やす" />
+<ISA id="1563508770000_isa38" parent="単純他動詞行為" child="減らす" />
+<ISA id="1563508770000_isa39" parent="単純自動詞行為" child="減る" />
+<ISA id="1563508770000_isa40" parent="複合自動詞行為" child="学ぶ" />
+<ISA id="1563508770000_isa41" parent="複合他動詞行為" child="教える" />
+<ISA id="1563508770000_isa42" parent="Any" child="知識" />
+<ISA id="1563508770000_isa43" parent="Any" child="スキル" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="2000" h="3000" />
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.0" h="842.0" iw="559.0" ih="783.0" ix="18.0" iy="18.0" />
+<PRINTER_SETTINGS orientation="1" printername="LBP9200C" />
+</PRINTER>
+</OE_FILE>
