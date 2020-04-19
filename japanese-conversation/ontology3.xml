@@ -2,7 +2,7 @@
 <OE_FILE filename="ontology3.xml" ont_id="1481885440000ont" >
 <FILENAME_ONT>ontology3.xml</FILENAME_ONT>
 <W_CONCEPTS>
-<CANVAS_SIZE w="12316" h="11708" x="726" y="838" />
+<CANVAS_SIZE w="12206" h="11618" x="724" y="833" />
 <CONCEPT id="1481885440000_n0" >
 <LABEL>Any</LABEL>
 <SUB_LABELS>
@@ -351,7 +351,7 @@
 <LABEL>概念的存在</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="568" y="913"/>
+<POS x="568" y="912"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -519,7 +519,7 @@
 <LABEL>対話</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="301" y="185"/>
+<POS x="300" y="184"/>
 <PART_TREE>close</PART_TREE>
 <SLOTS>
 <SLOT id="1533543092000_s58" 
@@ -567,7 +567,7 @@
 </SLOT>
 </SLOTS>
 <RELATIONS>
-<R_CONST id="1533543785000_rc62" label="sameAs" ><POS x="561" y="325"/>
+<R_CONST id="1533543785000_rc62" label="sameAs" ><POS x="560" y="324"/>
 <ARC label="class">対話$slot</ARC>
 <ARC label="class">対話$slot2%slot%slot</ARC>
 </R_CONST>
@@ -1281,7 +1281,7 @@
 <LABEL>花見</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="408" y="329"/>
+<POS x="408" y="328"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1291,7 +1291,7 @@
 <LABEL>映画鑑賞</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="373" y="288"/>
+<POS x="372" y="288"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1301,7 +1301,7 @@
 <LABEL>動物鑑賞</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="368" y="245"/>
+<POS x="368" y="244"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1851,12 +1851,12 @@
 <POS x="1024" y="1212"/>
 <SUB_TREE>open</SUB_TREE>
 <SLOTS>
-<SLOT id="1587300138000_s206" 
- type="NW"  label="slot"  kind="p/o"  num="1.."  role="変数"  class_constraint="Any"  rh_name=""  value="" >
+<SLOT id="1587335033000_s206" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="変数"  class_constraint="Any"  rh_name=""  value="メッセージ内容" >
 <SUB_LABELS>
 </SUB_LABELS>
 <SLOTS>
-<SLOT id="1587300138000_s207" 
+<SLOT id="1587335033000_s207" 
  type="R2-1"  label="slot"  kind="p/o"  num="1.."  role="要求キーワード"  class_constraint="Any"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
@@ -1906,7 +1906,7 @@
 <LABEL>文章変数</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="244" y="421"/>
+<POS x="244" y="420"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1916,15 +1916,21 @@
 <LABEL>[?x1]は好きですか？</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="897" y="1385"/>
+<POS x="896" y="1384"/>
 <SLOTS>
-<SLOT id="1587300138000_s213" 
+<SLOT id="1587335033000_s213" 
  type="OR"  label="slot"  kind="p/o"  num="1.."  role="x1"  class_constraint="花"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
-<PART_TREE>close</PART_TREE>
 <PARENT_SLOT slot="対話メッセージ$slot"/>
 <SUB_L label="" def="" role_name="" class_const="花" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1587335033000_s214" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="x1"  class_constraint="鳥"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="対話メッセージ$slot"/>
+<SUB_L label="" def="" role_name="" class_const="鳥" rh_name ="" value ="" />
 </SLOT>
 </SLOTS>
 <RELATIONS>
@@ -1945,7 +1951,7 @@
 <LABEL>x2</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="321" y="468"/>
+<POS x="320" y="468"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1965,7 +1971,7 @@
 <LABEL>x4</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="336" y="489"/>
+<POS x="336" y="488"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -1974,7 +1980,7 @@
 <LABEL>x5</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="269" y="544"/>
+<POS x="268" y="544"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -1983,7 +1989,7 @@
 <LABEL>x6</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="313" y="528"/>
+<POS x="312" y="528"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -1992,7 +1998,7 @@
 <LABEL>x7</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="360" y="525"/>
+<POS x="360" y="524"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -2140,7 +2146,7 @@
 <ISA id="1587299657000_isa361" parent="文章変数" child="x7" />
 </W_CONCEPTS>
 <R_CONCEPTS>
-<CANVAS_SIZE w="18853" h="17209" />
+<CANVAS_SIZE w="18525" h="16937" />
 </R_CONCEPTS>
 <PRINTER>
 <PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
