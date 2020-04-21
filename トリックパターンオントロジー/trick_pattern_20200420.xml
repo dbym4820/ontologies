@@ -1,0 +1,4298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OE_FILE filename="0330_trick_pattern.xml" ont_id="1569570186985ont" >
+<FILENAME_ONT>0330_trick_pattern.xml</FILENAME_ONT>
+<W_CONCEPTS hasAny="false">
+<CANVAS_SIZE w="8266" h="8064" x="96" y="1362" />
+<CONCEPT id="1577151889000_n0" >
+<LABEL>Any</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="0"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577151908000_n1" >
+<LABEL>トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="600" y="880"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1579797481000_s2" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="トリックを達成するためのトリック"  class_constraint="トリック"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="手法$slot"/>
+<SUB_L label="" def="" role_name="" class_const="トリック" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1579797481000_s3" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="具体物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="手法$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="具体物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577151927000_n2" >
+<LABEL>誰が犯人か，という情報に関するトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="280" y="1020"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1579797481000_s5" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="アリバイ誤認に使用するもの"  class_constraint="具体物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="具体物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577151927000_n3" >
+<LABEL>犯行の状況に関するトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="820" y="980"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577152012000_n5" >
+<LABEL>一人二役を担うトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="260" y="1200"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1579797481000_s8" 
+ type="NW"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1579797481000_s9" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="物語シーン$slot"/>
+<SLOTS>
+<SLOT id="1579797481000_s10" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="物語シーン$slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1579797481000_s11" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="役割"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="物語シーン$slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="役割" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577153504000_n10" >
+<LABEL>犯人が被害者に化けるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="724" y="1228"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s13" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s14" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s15" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+</SLOT>
+<SLOT id="1584948965000_s16" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="偽の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s17" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="登場人物２"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s18" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="被害者"  rh_name="真の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s19" 
+ type="OR"  label="slot32"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="犯人が被害者のように振る舞う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s20" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="被害者のように振る舞う犯人"  class_constraint="偽の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot"/>
+<SUB_L label="" def="" role_name="" class_const="偽の被害者" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s21" 
+ type="R2-2"  label="slot2"  kind="a/o"  num="1"  role="特定の被害者"  class_constraint="真の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="真の被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="犯人が被害者のように振る舞う" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1580344905000_rc22" label="look-like" ><POS x="1244" y="1608"/>
+<ARC label="obj1">犯人が被害者に化けるトリック$slot32%slot</ARC>
+<ARC label="obj2">犯人が被害者に化けるトリック$slot32%slot2</ARC>
+</R_CONST>
+<R_CONST id="1580406047000_rc23" label="different" ><POS x="1164" y="1408"/>
+<ARC label="class">犯人が被害者に化けるトリック$slot3%slot</ARC>
+<ARC label="class">犯人が被害者に化けるトリック$slot3%slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577153844000_n14" >
+<LABEL>共犯者が被害者に化けるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="1600"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1579797481000_s17" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1579797481000_s18" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name="共犯者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1579797481000_s19" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1579797481000_s20" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="偽の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1579797481000_s21" 
+ type="R2-2"  label="slot2"  kind="p/o"  num="1"  role="登場人物２"  class_constraint="人間"  rh_name="主犯"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1579797481000_s22" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s31" 
+ type="R2-1"  label="slot3"  kind="p/o"  num="1"  role="登場人物3"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s32" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="被害者"  rh_name="真の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s33" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="犯人が被害者のように振る舞う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s34" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="被害者のように振る舞う犯人"  class_constraint="偽の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot"/>
+<SUB_L label="" def="" role_name="" class_const="偽の被害者" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s35" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="特定の被害者"  class_constraint="真の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="真の被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="誰かのフリをする" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1579797481000_rc23" label="different" ><POS x="480" y="1720"/>
+<ARC label="class">共犯者が被害者に化けるトリック$slot3%slot</ARC>
+<ARC label="class">共犯者が被害者に化けるトリック$slot3%slot2</ARC>
+</R_CONST>
+<R_CONST id="1580406495000_rc32" label="friendly" ><POS x="460" y="1680"/>
+<ARC label="人間1">共犯者が被害者に化けるトリック$slot3%slot</ARC>
+<ARC label="人間2">共犯者が被害者に化けるトリック$slot3%slot2</ARC>
+</R_CONST>
+<R_CONST id="1580445643000_rc38" label="different" ><POS x="380" y="1780"/>
+<ARC label="class">共犯者が被害者に化けるトリック$slot3%slot</ARC>
+<ARC label="class">共犯者が被害者に化けるトリック$slot3%slot3</ARC>
+</R_CONST>
+<R_CONST id="1580445643000_rc39" label="different" ><POS x="340" y="1840"/>
+<ARC label="class">共犯者が被害者に化けるトリック$slot3%slot2</ARC>
+<ARC label="class">共犯者が被害者に化けるトリック$slot3%slot3</ARC>
+</R_CONST>
+<R_CONST id="1580954774000_rc40" label="look-like" ><POS x="440" y="2020"/>
+<ARC label="obj1">共犯者が被害者に化けるトリック$slot%slot</ARC>
+<ARC label="obj2">共犯者が被害者に化けるトリック$slot%slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577154522000_n18" >
+<LABEL>犯人が嫌疑をかけたい第三者に化けるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="380" y="1356"/>
+<SLOTS>
+<SLOT id="1584948965000_s42" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s43" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name="マイケル"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s44" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+</SLOT>
+<SLOT id="1584948965000_s45" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="偽の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s46" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="登場人物２"  class_constraint="人間"  rh_name="ロバート"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s47" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="第三者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="第三者" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s48" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="第１被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s49" 
+ type="R2-1"  label="slot3"  kind="p/o"  num="1"  role="登場人物３"  class_constraint="人間"  rh_name="ベンディゴー"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s50" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="真の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s51" 
+ type="OR"  label="slot32"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="犯人が被害者のように振る舞う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s52" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="被害者のように振る舞う犯人"  class_constraint="偽の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot"/>
+<SUB_L label="" def="" role_name="" class_const="偽の被害者" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s53" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="特定の被害者"  class_constraint="第１被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="第１被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="誰かのフリをする" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s54" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="トリックを達成するためのトリック"  class_constraint="犯人が被害者に化けるトリック"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s55" 
+ type="R2-2"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者に化けるトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s56" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者に化けるトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s57" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者に化けるトリック$slot3%slot%slot:slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s58" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="偽の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者に化けるトリック$slot3%slot%slot:slot2"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s59" 
+ type="R2-2"  label="slot3:slot2"  kind="p/o"  num="1"  role="登場人物２"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者に化けるトリック$slot3%slot2"/>
+<SLOTS>
+<SLOT id="1584948965000_s60" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="被害者"  rh_name="第１被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者に化けるトリック$slot3%slot2%slot"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s61" 
+ type="OR"  label="slot32"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="犯人が被害者のように振る舞う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者に化けるトリック$slot32"/>
+<SLOTS>
+<SLOT id="1584948965000_s62" 
+ type="R2-2"  label="slot32:slot"  kind="a/o"  num="1"  role="被害者のように振る舞う犯人"  class_constraint="偽の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者に化けるトリック$slot32%slot"/>
+<SUB_L label="" def="" role_name="" class_const="偽の被害者" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s63" 
+ type="R2-2"  label="slot32:slot2"  kind="a/o"  num="1"  role="特定の被害者"  class_constraint="真の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者に化けるトリック$slot32%slot2"/>
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="誰かのフリをする" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="犯人が被害者に化けるトリック" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1580956759000_rc56" label="different" ><POS x="1040" y="1436"/>
+<ARC label="class">犯人が嫌疑をかけたい第三者に化けるトリック$slot3%slot</ARC>
+<ARC label="class">犯人が嫌疑をかけたい第三者に化けるトリック$slot3%slot2</ARC>
+</R_CONST>
+<R_CONST id="1580956759000_rc57" label="different" ><POS x="720" y="1616"/>
+<ARC label="class">犯人が嫌疑をかけたい第三者に化けるトリック$slot3%slot2</ARC>
+<ARC label="class">犯人が嫌疑をかけたい第三者に化けるトリック$slot3%slot3</ARC>
+</R_CONST>
+<R_CONST id="1580956759000_rc58" label="different" ><POS x="1100" y="1576"/>
+<ARC label="class">犯人が嫌疑をかけたい第三者に化けるトリック$slot3%slot</ARC>
+<ARC label="class">犯人が嫌疑をかけたい第三者に化けるトリック$slot3%slot3</ARC>
+</R_CONST>
+<R_CONST id="1585667373000_rc67" label="look-like" ><POS x="880" y="1816"/>
+<ARC label="obj1">犯人が嫌疑をかけたい第三者に化けるトリック$slot32%slot</ARC>
+<ARC label="obj2">犯人が嫌疑をかけたい第三者に化けるトリック$slot32%slot2</ARC>
+</R_CONST>
+<R_CONST id="1585667373000_rc68" label="look-like" ><POS x="900" y="2216"/>
+<ARC label="obj1">犯人が嫌疑をかけたい第三者に化けるトリック$slot%slot32%slot32:slot</ARC>
+<ARC label="obj2">犯人が嫌疑をかけたい第三者に化けるトリック$slot%slot32%slot32:slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577155696000_n22" >
+<LABEL>犯人と被害者が同一人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="460" y="1220"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s68" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s69" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s70" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s71" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="真の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s72" 
+ type="OR"  label="slot32"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="犯人が被害者のように振る舞う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s73" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="被害者のように振る舞う犯人"  class_constraint="真の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot"/>
+<SUB_L label="" def="" role_name="" class_const="真の被害者" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s74" 
+ type="OR"  label="slot2"  kind="a/o"  num="0.."  role="特定の被害者"  class_constraint="真の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="真の被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="誰かのフリをする" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1585558596000_rc75" label="look-like" ><POS x="900" y="1520"/>
+<ARC label="obj1">犯人と被害者が同一人トリック$slot32%slot</ARC>
+<ARC label="obj2">犯人と被害者が同一人トリック$slot32%slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577157262000_n26" >
+<LABEL>犯人が架空の人物に化けて犯行するトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="900" y="1160"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s76" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s77" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s78" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s79" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="偽の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s80" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="登場人物２"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s81" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="架空の人物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="架空の人物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s82" 
+ type="OR"  label="slot32"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="犯人が被害者のように振る舞う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s83" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="被害者のように振る舞う犯人"  class_constraint="偽の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot"/>
+<SUB_L label="" def="" role_name="" class_const="偽の被害者" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s84" 
+ type="OR"  label="slot2"  kind="a/o"  num="0.."  role="特定の被害者"  class_constraint="架空の人物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="架空の人物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="誰かのフリをする" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1580344905000_rc49" label="look-like" ><POS x="1400" y="1580"/>
+<ARC label="obj1">犯人が架空の人物に化けて犯行するトリック$slot32%slot</ARC>
+<ARC label="obj2">犯人が架空の人物に化けて犯行するトリック$slot32%slot2</ARC>
+</R_CONST>
+<R_CONST id="1580406547000_rc53" label="different" ><POS x="1340" y="1360"/>
+<ARC label="class">犯人が架空の人物に化けて犯行するトリック$slot3%slot</ARC>
+<ARC label="class">犯人が架空の人物に化けて犯行するトリック$slot3%slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1577163801000_n36" >
+<LABEL>探偵が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="1340"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s88" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s89" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s90" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s91" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="探偵"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="探偵" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580146419000_n50" >
+<LABEL>時計による時間トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="460" y="1120"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s105" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーンA"  class_constraint="物語"  rh_name="カフェ"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s106" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="絶対時間"  class_constraint="時間"  rh_name="現場不在証明時間（３時）"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s107" 
+ type="R2-2"  label="slot2"  kind="a/o"  num="1"  role="認識時間"  class_constraint="時間"  rh_name="３時"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s108" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="事件シーン"  class_constraint="物語"  rh_name="殺人"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot2"/>
+<SLOTS>
+<SLOT id="1584948965000_s109" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="絶対時間"  class_constraint="時間"  rh_name="事件発生時間（４時）"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot2%slot"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s110" 
+ type="R2-2"  label="slot2"  kind="a/o"  num="1"  role="認識時間"  class_constraint="時間"  rh_name="３時"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot2%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s111" 
+ type="OR"  label="slot22"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="時計"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot22"/>
+<SUB_L label="" def="" role_name="" class_const="時計" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s112" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="事件発生時間の認識を変える"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s113" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="動かす時間"  class_constraint="事件発生時間（４時）"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="事件発生時間の認識を変える$slot"/>
+<SUB_L label="" def="" role_name="" class_const="事件発生時間（４時）" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s114" 
+ type="R2-2"  label="slot2"  kind="p/o"  num="1"  role="基準となる時間"  class_constraint="現場不在証明時間（３時）"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="事件発生時間の認識を変える$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="現場不在証明時間（３時）" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="時間の認識を変える" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580146419000_n51" >
+<LABEL>音による時間トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="680" y="1140"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s116" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーンA"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s117" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="絶対時間"  class_constraint="時間"  rh_name="基準時間"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s118" 
+ type="R2-2"  label="slot2"  kind="a/o"  num="1"  role="認識時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s119" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="事件シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot2"/>
+<SLOTS>
+<SLOT id="1584948965000_s120" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="絶対時間"  class_constraint="時間"  rh_name="事件発生時間"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot2%slot"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s121" 
+ type="R2-2"  label="slot2"  kind="a/o"  num="1"  role="認識時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot2%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s122" 
+ type="OR"  label="slot22"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="音"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot22"/>
+<SUB_L label="" def="" role_name="" class_const="音" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s123" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="事件発生時間の認識を変える"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="いつ犯行があったか，という情報に関するトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s124" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="動かす時間"  class_constraint="事件発生時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="事件発生時間の認識を変える$slot"/>
+<SUB_L label="" def="" role_name="" class_const="事件発生時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s125" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="基準となる時間"  class_constraint="基準時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="事件発生時間の認識を変える$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="基準時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="事件発生時間の認識を変える" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580225175000_n59" bookmark="true" >
+<LABEL>いつ犯行があったか，という情報に関するトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="500" y="1040"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s127" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="シーンA"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s128" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="絶対時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s129" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="認識時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s130" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="事件シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s131" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="絶対時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s132" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="認識時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s133" 
+ type="OR"  label="slot22"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="具体物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="具体物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s134" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="行為"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="行為" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580230495000_n65" >
+<LABEL>警察官が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="1300"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s136" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s137" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s138" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s139" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="警察官"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="警察官" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n95" >
+<LABEL>手法</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="60" y="620"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1579797481000_s107" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="手法の達成手法"  class_constraint="手法"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="手法" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1579797481000_s108" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="手法の実現のためにつかうもの"  class_constraint="具体物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="具体物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1579797481000_s109" 
+ type="NW"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="行為"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="行為" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n98" >
+<LABEL>具体物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="20"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n99" >
+<LABEL>抽象物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="80"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n100" >
+<LABEL>生物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1180" y="0"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n101" >
+<LABEL>無生物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="400" y="40"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n102" >
+<LABEL>哺乳類</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1260" y="60"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n103" >
+<LABEL>人間</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1460" y="80"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n105" >
+<LABEL>物語</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="260" y="140"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1579797481000_s118" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="登場人物"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1579797481000_s119" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="シーン"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n108" >
+<LABEL>物語シーン</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1080" y="200"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1579797481000_s121" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="登場人物"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="物語$slot"/>
+<SLOTS>
+<SLOT id="1579797481000_s122" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="役割"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="役割" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n111" >
+<LABEL>役割</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="360" y="260"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n112" >
+<LABEL>探偵</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1020" y="480"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n113" >
+<LABEL>犯人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="720" y="560"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n114" >
+<LABEL>被害者</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="860" y="520"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580275719000_n115" instantiation="true" >
+<LABEL>シーン101</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1660" y="220"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1579797481000_s128" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="登場人物"  class_constraint="ロイロット"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="物語シーン$slot"/>
+<SLOTS>
+<SLOT id="1579797481000_s129" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="物語シーン$slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="ロイロット" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1579797481000_n130" instantiation="true" >
+<LABEL>シーン102</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1460" y="320"/>
+<SLOTS>
+<SLOT id="1579797481000_s131" 
+ type="OR"  label="slot"  kind="p/o"  num="1.."  role="登場人物"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="物語シーン$slot"/>
+<SLOTS>
+<SLOT id="1579797481000_s132" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="役割"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="物語シーン$slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="役割" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1579797481000_n133" >
+<LABEL>行為</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="480" y="580"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1579797481000_n134" >
+<LABEL>犯人が被害者のように振る舞う</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="820" y="600"/>
+<SLOTS>
+<SLOT id="1579797481000_s135" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="被害者のように振る舞う犯人"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1579797481000_s136" 
+ type="NW"  label="slot2"  kind="a/o"  num="0.."  role="特定の被害者"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1579797481000_rc137" label="look-like" ><POS x="1120" y="680"/>
+<ARC label="obj1">犯人が被害者のように振る舞う$slot</ARC>
+<ARC label="obj2">犯人が被害者のように振る舞う$slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580344905000_n152" >
+<LABEL>架空の人物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1040" y="400"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580955387000_n176" >
+<LABEL>第三者</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1000" y="300"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957683000_n185" >
+<LABEL>警察官</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="500"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957683000_n186" >
+<LABEL>裁判官</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="860" y="560"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n187" >
+<LABEL>典獄</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1120" y="440"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n188" >
+<LABEL>事件の記述者</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1000" y="540"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n189" >
+<LABEL>事件の発見者</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1100" y="340"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n190" >
+<LABEL>動物_2</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="820" y="220"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n191" >
+<LABEL>幼年</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="420" y="400"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n192" >
+<LABEL>不具者</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="920" y="240"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n193" >
+<LABEL>老人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="340" y="360"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n194" >
+<LABEL>病人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1200" y="400"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n195" >
+<LABEL>死体</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1200" y="460"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n196" >
+<LABEL>医者</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="760" y="200"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580957944000_n197" >
+<LABEL>人形</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="660" y="180"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958190000_n190" >
+<LABEL>二人一役を担うトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="1060"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s188" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s189" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s190" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s191" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="登場人物２"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s192" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="役割"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="役割" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958190000_n191" >
+<LABEL>裁判官が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="1380"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s194" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s195" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s196" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s197" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="裁判官"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="裁判官" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958190000_n196" >
+<LABEL>典獄が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="1420"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s199" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s200" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s201" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s202" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="典獄"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="典獄" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958190000_n201" >
+<LABEL>事件の記述者が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="1460"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s204" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s205" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s206" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s207" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="事件の記述者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="事件の記述者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958190000_n206" >
+<LABEL>事件の発見者が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="1480"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s209" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s210" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s211" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s212" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="事件の発見者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="事件の発見者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958190000_n211" >
+<LABEL>幼年が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="1520"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s214" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s215" 
+ type="R2-2"  label="slot3:slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s216" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+</SLOT>
+<SLOT id="1584948965000_s217" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="幼年"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="幼年" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958190000_n216" >
+<LABEL>老人が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="1540"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s219" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s220" 
+ type="R2-2"  label="slot3:slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s221" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+</SLOT>
+<SLOT id="1584948965000_s222" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="老人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="老人" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958190000_n221" >
+<LABEL>不具者が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="1540"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s224" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s225" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s226" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+</SLOT>
+<SLOT id="1584948965000_s227" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="不具者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="不具者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958833000_n226" >
+<LABEL>病人が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="1600"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s229" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s230" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s231" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s232" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="病人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="病人" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958833000_n231" >
+<LABEL>死体が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="20" y="1260"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s234" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s235" 
+ type="R2-2"  label="slot3:slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s236" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+</SLOT>
+<SLOT id="1584948965000_s237" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="死体"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="死体" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580958833000_n236" >
+<LABEL>人形が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="40" y="1220"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s239" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s240" 
+ type="R2-2"  label="slot3:slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s241" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+</SLOT>
+<SLOT id="1584948965000_s242" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="人形"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="人形" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580959609000_n241" >
+<LABEL>動物が犯人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="1640"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s244" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s245" 
+ type="R2-2"  label="slot3:slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s246" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+</SLOT>
+<SLOT id="1584948965000_s247" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="動物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580959670000_n251" >
+<LABEL>他人を自分の替え玉に仕立てるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="0" y="940"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s249" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s250" 
+ type="R2-2"  label="slot:slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s251" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s252" 
+ type="R2-2"  label="slot:slot2"  kind="p/o"  num="1"  role="登場人物２"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot%slot2"/>
+<SLOTS>
+<SLOT id="1584948965000_s253" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="第三者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot%slot2%slot"/>
+<SUB_L label="" def="" role_name="" class_const="第三者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s254" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="犯人が被害者のように振る舞う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s255" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="被害者のように振る舞う犯人"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot"/>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s256" 
+ type="R2-2"  label="slot2"  kind="a/o"  num="1"  role="特定の被害者"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="誰かのフリをする" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1580973309000_rc269" label="look-like" ><POS x="480" y="1280"/>
+<ARC label="obj1">他人を自分の替え玉に仕立てるトリック$slot3%slot</ARC>
+<ARC label="obj2">他人を自分の替え玉に仕立てるトリック$slot3%slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580959670000_n252" >
+<LABEL>双生児が二人一役トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="120" y="1140"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s259" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s260" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s261" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s262" 
+ type="OR"  label="slot:slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="双子"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="双子" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s263" 
+ type="R2-2"  label="slot2"  kind="p/o"  num="1"  role="登場人物２"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot%slot2"/>
+<SLOTS>
+<SLOT id="1584948965000_s264" 
+ type="OR"  label="slot2:slot"  kind="a/o"  num="1"  role="役割"  class_constraint="双子"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="二人一役を担うトリック$slot%slot2%slot"/>
+<SUB_L label="" def="" role_name="" class_const="双子" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1580970714000_rc272" label="friendly" ><POS x="600" y="1220"/>
+<ARC label="人間1">双生児が二人一役トリック$slot%slot</ARC>
+<ARC label="人間2">双生児が二人一役トリック$slot%slot2</ARC>
+</R_CONST>
+<R_CONST id="1580973309000_rc278" label="look-like" ><POS x="640" y="1320"/>
+<ARC label="obj1">双生児が二人一役トリック$slot%slot</ARC>
+<ARC label="obj2">双生児が二人一役トリック$slot%slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580970714000_n273" >
+<LABEL>双子</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="780" y="560"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581307999000_n286" >
+<LABEL>時計</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="760" y="40"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581308703000_n287" >
+<LABEL>事件発生時間の認識を変える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1000" y="660"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s270" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="動かす時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s271" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="基準となる時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581320607000_n300" >
+<LABEL>音</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="440" y="120"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581491216000_n274" >
+<LABEL>犯行の仕方に関するトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1180" y="840"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581491216000_n275" >
+<LABEL>足跡トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="960" y="1080"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s275" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s276" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1.."  role="足跡"  class_constraint="足跡"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s277" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="行為者"  class_constraint="動物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="足跡" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581491216000_n279" >
+<LABEL>足跡</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="780" y="80"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581491216000_n280" >
+<LABEL>後ろ向きに歩いて行き先を誤認させるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1220" y="1100"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s280" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="足跡トリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s281" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1.."  role="足跡"  class_constraint="足跡"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="足跡トリック$slot%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s282" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="行為者"  class_constraint="動物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="足跡トリック$slot%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="足跡" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s283" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="現在地"  class_constraint="場所"  rh_name="偽の目的地"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="場所" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s284" 
+ type="R2-1"  label="slot3"  kind="p/o"  num="1"  role="目的地"  class_constraint="場所"  rh_name="真の目的地"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="場所" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s285" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="後ろ向きに歩く"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s286" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="現在地"  class_constraint="偽の目的地"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="後ろ向きに歩く$slot"/>
+<SUB_L label="" def="" role_name="" class_const="偽の目的地" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s287" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="目的地"  class_constraint="真の目的地"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="後ろ向きに歩く$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="真の目的地" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="後ろ向きに歩く" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581558467000_n288" >
+<LABEL>空間</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="160" y="300"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581558467000_n289" >
+<LABEL>時間</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="100" y="360"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581558467000_n290" >
+<LABEL>場所</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="220" y="420"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581558467000_n291" >
+<LABEL>後ろ向きに歩く</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="980" y="720"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s292" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="現在地"  class_constraint="場所"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="場所" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s293" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="目的地"  class_constraint="場所"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="場所" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581559105000_n294" >
+<LABEL>靴の底に蹄鉄をうち，馬の足跡と思わせるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="840" y="1120"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s295" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="足跡トリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s296" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1.."  role="足跡"  class_constraint="足跡"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="足跡トリック$slot%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s297" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="行為者"  class_constraint="動物"  rh_name="人間"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="足跡トリック$slot%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s298" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="足跡の形"  class_constraint="動物"  rh_name="馬"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="足跡" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s299" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="別の足型をはめて歩く"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s300" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="行為者"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="別の足型をはめて歩く$slot"/>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s301" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="化ける動物"  class_constraint="馬"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="別の足型をはめて歩く$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="馬" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="別の足型をはめて歩く" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s302" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="蹄鉄"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="蹄鉄" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581560260000_n299" >
+<LABEL>別の足型をはめて歩く</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="700" y="660"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s304" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="行為者"  class_constraint="動物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s305" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="化ける動物"  class_constraint="動物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581560474000_n302" >
+<LABEL>動物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1260" y="20"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581560763000_n306" >
+<LABEL>馬</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1180" y="100"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581560970000_n307" >
+<LABEL>馬に牛の足型をはめて歩かせる</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1080" y="1120"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s309" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="足跡トリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s310" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1.."  role="足跡"  class_constraint="足跡"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="足跡トリック$slot%slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s311" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="行為者"  class_constraint="動物"  rh_name="馬"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="足跡トリック$slot%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s312" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="足跡の形"  class_constraint="動物"  rh_name="牛"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="足跡" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s313" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="別の足型をはめて歩く"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s314" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="行為者"  class_constraint="馬"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="別の足型をはめて歩く$slot"/>
+<SUB_L label="" def="" role_name="" class_const="馬" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s315" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="化ける動物"  class_constraint="牛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="別の足型をはめて歩く$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="牛" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="別の足型をはめて歩く" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s316" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="牛の足型"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="牛の足型" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581561490000_n316" >
+<LABEL>蹄鉄</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="340" y="100"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581561524000_n318" >
+<LABEL>牛の足型</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="240" y="60"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581561585000_n319" >
+<LABEL>密室トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1680" y="1120"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1586361313000_s310" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="場所"  class_constraint="密室"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="密室" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581568903000_n322" >
+<LABEL>部屋</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1180" y="200"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s323" 
+ type="NW"  label="slot"  kind="a/o"  num="1"  role="ドア"  class_constraint="ドア"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ドア" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s324" 
+ type="NW"  label="slot2"  kind="a/o"  num="1"  role="屋根"  class_constraint="屋根"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="屋根" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s325" 
+ type="NW"  label="slot3"  kind="a/o"  num="1"  role="部屋の中にある家具"  class_constraint="家具"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="家具" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s326" 
+ type="NW"  label="slot5"  kind="a/o"  num="1"  role="窓"  class_constraint="窓"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="窓" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581569290000_n323" >
+<LABEL>犯行時，犯人が室内にいない</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1580" y="1220"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1586361313000_s317" 
+ type="NW"  label="slot"  kind="p/o"  num="0"  role="登場人物"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581569290000_n324" >
+<LABEL>犯行時，犯人が室内にいる</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1840" y="1260"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1586361313000_s319" 
+ type="NW"  label="slot"  kind="p/o"  num="1.."  role="登場人物"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581569290000_n325" >
+<LABEL>犯行時，被害者が室内にいない</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1560" y="980"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581569768000_n326" >
+<LABEL>室内の機械的な装置による殺人トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1580" y="1600"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1586361313000_s322" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="加害者"  class_constraint="機械"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="機械" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581572896000_n331" >
+<LABEL>室外からの遠隔殺人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1800" y="2240"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1585323904000_s338" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1585323904000_s339" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="凶器"  class_constraint="凶器"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="凶器" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581572896000_n335" >
+<LABEL>ベッド</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="960" y="80"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581572896000_n336" >
+<LABEL>電話</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="880" y="80"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581574468000_n335" >
+<LABEL>被害者自ら死に至らしめるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1780" y="1820"/>
+<SLOTS>
+<SLOT id="1584948965000_s340" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s342" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1.."  role="登場人物"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="物語$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s343" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="過失死する被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s344" 
+ type="R2-1"  label="slot2"  kind="a/o"  num="1"  role="心的状態"  class_constraint="恐怖"  rh_name="恐怖心"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="恐怖" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s345" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="恐怖心を与える"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s346" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="加害者"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="恐怖心を与える$slot"/>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s347" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="被害者"  class_constraint="被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="恐怖心を与える$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="恐怖心を与える" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581575109000_n345" >
+<LABEL>恐怖心を与える</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="840" y="720"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s350" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="加害者"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s351" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="被害者"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581575757000_n348" >
+<LABEL>密室脱出トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2160" y="1380"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581576005000_n349" >
+<LABEL>鍵をかけたまま，蝶番の付け外しにより出入りすることで，密室を構成しているように見せたまま犯行するトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="3480" y="1700"/>
+<SLOTS>
+<SLOT id="1584948965000_s354" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s355" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1.."  role="犯行現場"  class_constraint="密室"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s356" 
+ type="OR"  label="slot"  kind="a/o"  num="1"  role="ドア"  class_constraint="ドア"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="部屋$slot"/>
+<SUB_L label="" def="" role_name="" class_const="ドア" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="密室" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s357" 
+ type="OR"  label="slot22"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="具体物"  rh_name="蝶番"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="具体物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s358" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="偽の密室を構成する"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s359" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="特徴"  class_constraint="人の出入りが可能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="偽の密室を構成する$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s360" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="人の出入りが可能な場所"  class_constraint="ドア"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="偽の密室を構成する$slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="ドア" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s361" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="出入りを可能にするもの"  class_constraint="蝶番"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="偽の密室を構成する$slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="蝶番" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s362" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="密室形態"  class_constraint="蝶番が取り外し可能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="偽の密室を構成する$slot%slot3"/>
+<SUB_L label="" def="" role_name="" class_const="蝶番が取り外し可能" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人の出入りが可能" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="偽の密室を構成する" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581576005000_n350" >
+<LABEL>実際より後に犯行があったと見せかける</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1940" y="1600"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581576005000_n351" >
+<LABEL>密室で人間以外の犯人が殺害する</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1520" y="1300"/>
+<SLOTS>
+<SLOT id="1586361313000_s352" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="加害者"  class_constraint="動物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1586361313000_s353" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="場所"  class_constraint="密室"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="密室トリック$slot"/>
+<SUB_L label="" def="" role_name="" class_const="密室" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581579451000_n357" >
+<LABEL>犯行後，密室内で音を出すことで犯行時間を誤認させるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1980" y="1760"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s369" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s370" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1.."  role="犯行現場"  class_constraint="密室"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="密室" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s371" 
+ type="OR"  label="slot2"  kind="p/o"  num="1.."  role="トリックを達成するためのトリック"  class_constraint="音による時間トリック"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s372" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="シーンA"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s373" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="絶対時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s374" 
+ type="R2-2"  label="slot2"  kind="a/o"  num="1"  role="認識時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s375" 
+ type="R2-2"  label="slot2"  kind="p/o"  num="1"  role="事件シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot2"/>
+<SLOTS>
+<SLOT id="1584948965000_s376" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="絶対時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot2%slot"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s377" 
+ type="R2-2"  label="slot2"  kind="a/o"  num="1"  role="認識時間"  class_constraint="時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot2%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s378" 
+ type="R2-2"  label="slot22"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="音"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot22"/>
+<SUB_L label="" def="" role_name="" class_const="音" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s379" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="事件発生時間の認識を変える"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s380" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="動かす時間"  class_constraint="事件発生時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot3%slot"/>
+<SUB_L label="" def="" role_name="" class_const="事件発生時間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s381" 
+ type="R2-2"  label="slot2"  kind="p/o"  num="1"  role="基準となる時間"  class_constraint="基準時間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="音による時間トリック$slot3%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="基準時間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="事件発生時間の認識を変える" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="音による時間トリック" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581580405000_n371" >
+<LABEL>犯行後，被害者の声を吹き込んだレコードを流すことで犯行時間を誤認させるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2140" y="1980"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s383" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="レコード"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="レコード" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581580405000_n373" >
+<LABEL>犯行後，密室内で銃声を発することで犯行時間を誤認させるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2020" y="2100"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s385" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="拳銃"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="拳銃" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581580405000_n375" >
+<LABEL>犯行後，紙袋に息を入れて強く叩く音で偽の銃声を作ることで犯行時間を誤認させるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2300" y="2020"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s387" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="紙袋"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="紙袋" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581614921000_n376" >
+<LABEL>犯行後，死体の上に小屋を作る密室を形成することで，犯行時間を誤認させるトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2320" y="1840"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1584948965000_s389" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s390" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1.."  role="犯行現場"  class_constraint="密室"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s391" 
+ type="OR"  label="slot:slot"  kind="a/o"  num="1"  role="密室構成要素"  class_constraint="特徴"  rh_name="１夜で建築可能な小屋"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="特徴" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="密室" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s392" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="死体"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s393" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="偽の密室を構成する"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s394" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="場所"  class_constraint="場所"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="場所" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s395" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="密室形態"  class_constraint="１夜で建築可能な小屋"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="１夜で建築可能な小屋" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="密室を構成する" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581637550000_n381" >
+<LABEL>偽の密室を構成する</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1160" y="560"/>
+<SLOTS>
+<SLOT id="1584948965000_s397" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="特徴"  class_constraint="人の出入りが可能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s398" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="人の出入りが可能な場所"  class_constraint="場所"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="場所" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s399" 
+ type="R2-1"  label="slot2"  kind="p/o"  num="1"  role="出入りを可能にするもの"  class_constraint="具体物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="具体物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s400" 
+ type="R2-1"  label="slot3"  kind="p/o"  num="1"  role="密室形態"  class_constraint="特徴"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="特徴" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人の出入りが可能" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581637754000_n384" >
+<LABEL>特徴</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="160" y="460"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581653803000_n395" >
+<LABEL>密室の出入りに関するトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2460" y="1680"/>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581657836000_n396" >
+<LABEL>密室の屋根をジャッキで持ち上げて出入りすることで，密室を構成しているように見せたまま犯行するトリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2920" y="2080"/>
+<SLOTS>
+<SLOT id="1584948965000_s404" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s405" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1.."  role="犯行現場"  class_constraint="密室"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1584948965000_s406" 
+ type="OR"  label="slot2"  kind="a/o"  num="1"  role="屋根"  class_constraint="屋根"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="部屋$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="屋根" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="密室" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s407" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="具体物"  rh_name="ジャッキ"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="具体物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s408" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="偽の密室を構成する"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1584948965000_s409" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="特徴"  class_constraint="人の出入りが可能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="偽の密室を構成する$slot"/>
+<SLOTS>
+<SLOT id="1584948965000_s410" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="人の出入りが可能な場所"  class_constraint="屋根"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="偽の密室を構成する$slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="屋根" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s411" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="出入りを可能にするもの"  class_constraint="ジャッキ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="偽の密室を構成する$slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="ジャッキ" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s412" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="密室形態"  class_constraint="ジャッキで屋根を持ち上げ可能"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="偽の密室を構成する$slot%slot3"/>
+<SUB_L label="" def="" role_name="" class_const="ジャッキで屋根を持ち上げ可能" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人の出入りが可能" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="偽の密室を構成する" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581666674000_n405" >
+<LABEL>屋根</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="480" y="120"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581666674000_n406" >
+<LABEL>ドア</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="780" y="120"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581666674000_n407" >
+<LABEL>窓</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="740" y="120"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581666674000_n408" >
+<LABEL>密室</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1500" y="200"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581754397000_n413" >
+<LABEL>人の出入りが可能</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="140" y="540"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581756577000_n417" >
+<LABEL>蝶番が取り外し可能</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="300" y="580"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1581761622000_n419" >
+<LABEL>ジャッキで屋根を持ち上げ可能</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="320" y="620"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585313561000_n421" >
+<LABEL>機械</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="900" y="120"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585313561000_n422" >
+<LABEL>毒ガス発生ベッドによる密室毒殺</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1200" y="1700"/>
+<SLOTS>
+<SLOT id="1586361313000_s408" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="加害者"  class_constraint="ベッド"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="室内の機械的な装置による殺人トリック$slot"/>
+<SLOTS>
+<SLOT id="1586361313000_s409" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="機能"  class_constraint="毒ガスが発生する"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="毒ガスが発生する" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="ベッド" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1586361313000_s410" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="毒を仕込む"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1586361313000_s411" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="仕込むもの"  class_constraint="毒ガス"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒を仕込む$slot"/>
+<SUB_L label="" def="" role_name="" class_const="毒ガス" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1586361313000_s412" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="仕込み先"  class_constraint="ベッド"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒を仕込む$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="ベッド" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="毒を仕込む" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1586361313000_s413" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="死因"  class_constraint="毒死"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="毒死" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585313561000_n425" >
+<LABEL>ベッドが折りたたまれて密室窒息死</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1440" y="1780"/>
+<SLOTS>
+<SLOT id="1586361313000_s415" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="加害者"  class_constraint="ベッド"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="室内の機械的な装置による殺人トリック$slot"/>
+<SLOTS>
+<SLOT id="1586361313000_s416" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="機能"  class_constraint="自動的に折りたたまれる"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="自動的に折りたたまれる" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="ベッド" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1586361313000_s417" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="死因"  class_constraint="窒息死"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="窒息死" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585315519000_n430" >
+<LABEL>毒物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="540" y="120"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585316125000_n430" >
+<LABEL>電話の受話器で感電死</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1480" y="2580"/>
+<SLOTS>
+<SLOT id="1585323904000_s431" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1585323904000_s432" 
+ type="R2-2"  label="slot:slot"  kind="p/o"  num="1"  role="殺害兵器"  class_constraint="電話"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="電話" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1585323904000_s433" 
+ type="R2-1"  label="slot"  kind="p/o"  num="1"  role="原因"  class_constraint="電気"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="電気" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585316385000_n434" >
+<LABEL>電気</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="620" y="120"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585323206000_n434" >
+<LABEL>感情</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="220" y="240"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585323206000_n435" >
+<LABEL>恐怖</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="280" y="320"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585323904000_n437" >
+<LABEL>凶器</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="380" y="120"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585323904000_n438" >
+<LABEL>窓を通して岩塩を打ちこみ殺害</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1640" y="2620"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585323904000_n439" >
+<LABEL>室外から撃ったピストルを室内に投げ込み，犯人が室内にいたごとく見せかける殺人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1680" y="2900"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585323904000_n440" >
+<LABEL>カーテンの隙間から凶器を取り替えて証拠を隠滅する殺人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2120" y="3060"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585475245000_n441" >
+<LABEL>凶器トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2000" y="420"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1586361313000_s431" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="凶器"  class_constraint="凶器"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="凶器" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585475245000_n442" >
+<LABEL>毒物トリック</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1820" y="980"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1585496617000_s443" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="トリックの実現のためにつかうもの"  class_constraint="毒物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="トリック$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="毒物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1585496617000_s444" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="毒を仕込む"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SUB_L label="" def="" role_name="" class_const="毒を仕込む" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585475312000_n445" >
+<LABEL>嚥下毒</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2240" y="1100"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585475312000_n446" >
+<LABEL>注射毒</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2200" y="1160"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1585496617000_s447" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="利用する人"  class_constraint="医者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="医者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585475312000_n447" >
+<LABEL>吸入毒</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2300" y="1040"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585491000000_n451" >
+<LABEL>毒針が飛び出してくる椅子で毒殺</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2500" y="1280"/>
+<SLOTS>
+<SLOT id="1585496617000_s450" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="毒を仕込む"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒物トリック$slot3"/>
+<SLOTS>
+<SLOT id="1585496617000_s451" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="仕込むもの"  class_constraint="毒針"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒を仕込む$slot"/>
+<SUB_L label="" def="" role_name="" class_const="毒針" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1585496617000_s452" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="仕込み先"  class_constraint="椅子"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒を仕込む$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="椅子" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="毒を仕込む" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585491204000_n452" >
+<LABEL>握ると毒針が手のひらを刺す食卓ナイフで毒殺</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2300" y="1440"/>
+<SLOTS>
+<SLOT id="1585496617000_s454" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="毒を仕込む"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒物トリック$slot3"/>
+<SLOTS>
+<SLOT id="1585496617000_s455" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="仕込むもの"  class_constraint="毒針"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒を仕込む$slot"/>
+<SUB_L label="" def="" role_name="" class_const="毒針" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1585496617000_s456" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="仕込み先"  class_constraint="食卓ナイフ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒を仕込む$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="食卓ナイフ" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="毒を仕込む" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585491204000_n453" >
+<LABEL>握手すると毒液を注射する指輪で毒殺</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2480" y="1120"/>
+<SLOTS>
+<SLOT id="1585496617000_s458" 
+ type="OR"  label="slot3"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="毒を仕込む"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒物トリック$slot3"/>
+<SLOTS>
+<SLOT id="1585496617000_s459" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="仕込むもの"  class_constraint="毒液"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒を仕込む$slot"/>
+<SUB_L label="" def="" role_name="" class_const="毒液" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1585496617000_s460" 
+ type="OR"  label="slot2"  kind="p/o"  num="1"  role="仕込み先"  class_constraint="指輪"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="毒を仕込む$slot2"/>
+<SUB_L label="" def="" role_name="" class_const="指輪" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="毒を仕込む" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585494004000_n452" >
+<LABEL>毒を仕込む</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="540" y="680"/>
+<SLOTS>
+<SLOT id="1585496617000_s462" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="仕込むもの"  class_constraint="毒物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="毒物" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1585496617000_s463" 
+ type="NW"  label="slot2"  kind="p/o"  num="1"  role="仕込み先"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585494178000_n454" >
+<LABEL>毒液</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="560" y="160"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585495010000_n459" >
+<LABEL>毒針</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="500" y="160"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585495010000_n460" >
+<LABEL>椅子</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="400" y="140"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1585496763000_n467" >
+<LABEL>犯人が被害者の一人を装い，嫌疑を免れている</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="612" y="1268"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1585556483000_s468" 
+ type="OR"  label="slot3"  kind="p/o"  num="1"  role="シーン"  class_constraint="物語"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3"/>
+<SLOTS>
+<SLOT id="1585556483000_s469" 
+ type="R2-2"  label="slot"  kind="p/o"  num="1"  role="登場人物１"  class_constraint="人間"  rh_name="ヘレン"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot"/>
+<SLOTS>
+<SLOT id="1585556483000_s470" 
+ type="OR"  label="slot"  kind="a/o"  num="1.."  role="役割"  class_constraint="犯人"  rh_name="主犯"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot"/>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1585556483000_s471" 
+ type="OR"  label="slot2"  kind="a/o"  num="1.."  role="役割"  class_constraint="被害者"  rh_name="偽の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="一人二役を担うトリック$slot3%slot%slot2"/>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1585556483000_s472" 
+ type="R2-2"  label="slot2"  kind="p/o"  num="1"  role="登場人物２"  class_constraint="人間"  rh_name="ロイロット"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1585557725000_s473" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="犯人"  rh_name="共犯者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PART_TREE>close</PART_TREE>
+<SUB_L label="" def="" role_name="" class_const="犯人" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1585557725000_s474" 
+ type="R2-1"  label="slot3"  kind="p/o"  num="1"  role="登場人物３"  class_constraint="人間"  rh_name="ジュリア"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SLOTS>
+<SLOT id="1585557725000_s475" 
+ type="R2-1"  label="slot"  kind="a/o"  num="1"  role="役割"  class_constraint="被害者"  rh_name="真の被害者"  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="物語" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1586361313000_s466" 
+ type="OR"  label="slot32"  kind="p/o"  num="1.."  role="手法を達成するための行為"  class_constraint="犯人が被害者のように振る舞う"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="手法$slot3"/>
+<SLOTS>
+<SLOT id="1586361313000_s467" 
+ type="R2-2"  label="slot"  kind="a/o"  num="1"  role="被害者のように振る舞う犯人"  class_constraint="偽の被害者"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="犯人が被害者のように振る舞う$slot"/>
+<SUB_L label="" def="" role_name="" class_const="偽の被害者" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="犯人が被害者のように振る舞う" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+<R_CONST id="1585558399000_rc476" label="friendly" ><POS x="1032" y="1488"/>
+<ARC label="人間1">犯人が被害者の一人を装い，嫌疑を免れている$slot3%slot</ARC>
+<ARC label="人間2">犯人が被害者の一人を装い，嫌疑を免れている$slot3%slot3</ARC>
+</R_CONST>
+<R_CONST id="1585558754000_rc478" label="friendly" ><POS x="1072" y="1448"/>
+<ARC label="人間1">犯人が被害者の一人を装い，嫌疑を免れている$slot3%slot</ARC>
+<ARC label="人間2">犯人が被害者の一人を装い，嫌疑を免れている$slot3%slot2</ARC>
+</R_CONST>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586141037000_n469" >
+<LABEL>毒ガス</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="640" y="140"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586250534000_n471" >
+<LABEL>動物利用の殺人</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2160" y="460"/>
+<SUB_TREE>open</SUB_TREE>
+<SLOTS>
+<SLOT id="1586361313000_s472" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="凶器"  class_constraint="動物"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="凶器トリック$slot"/>
+<SUB_L label="" def="" role_name="" class_const="動物" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586251319000_n474" >
+<LABEL>ヘビに頭を噛まれて殺される</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1940" y="540"/>
+<SLOTS>
+<SLOT id="1586361313000_s474" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="凶器"  class_constraint="ヘビ"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="凶器トリック$slot"/>
+<SUB_L label="" def="" role_name="" class_const="ヘビ" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586251710000_n476" >
+<LABEL>獅子にくしゃみ薬を投入し獅子使いが口の中へ頭を入れる芸を実行するときにくしゃみをさせ噛み殺させる</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2580" y="80"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586251710000_n477" >
+<LABEL>棒の先に獅子の爪のような金具をとりつけ、殴打して死に至らしめ、獅子にやられたと見せかける</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="2220" y="160"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586251710000_n478" >
+<LABEL>すれ違う貨車の窓から頭を出している牛の角に刺される</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1960" y="660"/>
+<SLOTS>
+<SLOT id="1586361313000_s478" 
+ type="OR"  label="slot"  kind="p/o"  num="1"  role="凶器"  class_constraint="牛"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<PARENT_SLOT slot="凶器トリック$slot"/>
+<SUB_L label="" def="" role_name="" class_const="牛" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586255082000_n483" >
+<LABEL>爬虫類</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1360" y="0"/>
+<PART_TREE>close</PART_TREE>
+<SUB_TREE>open</SUB_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586255082000_n484" >
+<LABEL>ヘビ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1460" y="0"/>
+<PART_TREE>close</PART_TREE>
+<SLOTS>
+<SLOT id="1586361313000_s481" 
+ type="NW"  label="slot"  kind="p/o"  num="1"  role="牙"  class_constraint="ヘビの牙"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="ヘビの牙" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586255082000_n486" >
+<LABEL>牙</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="720" y="140"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586255082000_n487" >
+<LABEL>角</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="300" y="80"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586361313000_n484" >
+<LABEL>牛</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1240" y="100"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586361313000_n485" >
+<LABEL>ヒヒ</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1460" y="40"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586361313000_n486" >
+<LABEL>豹</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="1320" y="100"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1586506346000_n487" >
+<LABEL>電話による時間アリバイ偽造</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="720" y="1200"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<ISA id="1577151927000_isa6" parent="トリック" child="誰が犯人か，という情報に関するトリック" />
+<ISA id="1577151927000_isa7" parent="トリック" child="犯行の状況に関するトリック" />
+<ISA id="1577152012000_isa10" parent="誰が犯人か，という情報に関するトリック" child="一人二役を担うトリック" />
+<ISA id="1577153504000_isa20" parent="一人二役を担うトリック" child="犯人が被害者に化けるトリック" />
+<ISA id="1577153844000_isa22" parent="一人二役を担うトリック" child="共犯者が被害者に化けるトリック" />
+<ISA id="1577154522000_isa27" parent="一人二役を担うトリック" child="犯人が嫌疑をかけたい第三者に化けるトリック" />
+<ISA id="1577155696000_isa34" parent="一人二役を担うトリック" child="犯人と被害者が同一人トリック" />
+<ISA id="1577157262000_isa37" parent="一人二役を担うトリック" child="犯人が架空の人物に化けて犯行するトリック" />
+<ISA id="1577163801000_isa53" parent="一人二役を担うトリック" child="探偵が犯人トリック" />
+<ISA id="1580225175000_isa77" parent="トリック" child="いつ犯行があったか，という情報に関するトリック" />
+<ISA id="1580225175000_isa78" parent="いつ犯行があったか，という情報に関するトリック" child="時計による時間トリック" />
+<ISA id="1580225175000_isa79" parent="いつ犯行があったか，という情報に関するトリック" child="音による時間トリック" />
+<ISA id="1580230495000_isa90" parent="一人二役を担うトリック" child="警察官が犯人トリック" />
+<ISA id="1580275719000_isa145" parent="手法" child="トリック" />
+<ISA id="1580275719000_isa146" parent="Any" child="具体物" />
+<ISA id="1580275719000_isa147" parent="Any" child="抽象物" />
+<ISA id="1580275719000_isa148" parent="抽象物" child="手法" />
+<ISA id="1580275719000_isa149" parent="具体物" child="生物" />
+<ISA id="1580275719000_isa150" parent="具体物" child="無生物" />
+<ISA id="1580275719000_isa152" parent="哺乳類" child="人間" />
+<ISA id="1580275719000_isa154" parent="抽象物" child="物語" />
+<ISA id="1580275719000_isa155" parent="物語" child="物語シーン" />
+<ISA id="1580275719000_isa156" parent="抽象物" child="役割" />
+<ISA id="1580275719000_isa157" parent="役割" child="探偵" />
+<ISA id="1580275719000_isa158" parent="役割" child="犯人" />
+<ISA id="1580275719000_isa159" parent="役割" child="被害者" />
+<ISA id="1580275719000_isa160" parent="物語シーン" child="シーン101" />
+<ISA id="1579797481000_isa181" parent="物語シーン" child="シーン102" />
+<ISA id="1579797481000_isa182" parent="抽象物" child="行為" />
+<ISA id="1579797481000_isa183" parent="行為" child="犯人が被害者のように振る舞う" />
+<ISA id="1580445643000_isa212" parent="役割" child="架空の人物" />
+<ISA id="1580955387000_isa224" parent="役割" child="第三者" />
+<ISA id="1580957683000_isa235" parent="役割" child="警察官" />
+<ISA id="1580957683000_isa236" parent="役割" child="裁判官" />
+<ISA id="1580957944000_isa248" parent="役割" child="典獄" />
+<ISA id="1580957944000_isa249" parent="役割" child="事件の記述者" />
+<ISA id="1580957944000_isa250" parent="役割" child="事件の発見者" />
+<ISA id="1580957944000_isa251" parent="役割" child="動物_2" />
+<ISA id="1580957944000_isa252" parent="役割" child="幼年" />
+<ISA id="1580957944000_isa253" parent="役割" child="不具者" />
+<ISA id="1580957944000_isa254" parent="役割" child="老人" />
+<ISA id="1580957944000_isa255" parent="役割" child="病人" />
+<ISA id="1580957944000_isa256" parent="役割" child="死体" />
+<ISA id="1580957944000_isa257" parent="役割" child="医者" />
+<ISA id="1580957944000_isa258" parent="役割" child="人形" />
+<ISA id="1580958190000_isa281" parent="誰が犯人か，という情報に関するトリック" child="二人一役を担うトリック" />
+<ISA id="1580958190000_isa282" parent="一人二役を担うトリック" child="裁判官が犯人トリック" />
+<ISA id="1580958190000_isa283" parent="一人二役を担うトリック" child="典獄が犯人トリック" />
+<ISA id="1580958190000_isa284" parent="一人二役を担うトリック" child="事件の記述者が犯人トリック" />
+<ISA id="1580958190000_isa285" parent="一人二役を担うトリック" child="事件の発見者が犯人トリック" />
+<ISA id="1580958190000_isa286" parent="一人二役を担うトリック" child="幼年が犯人トリック" />
+<ISA id="1580958190000_isa287" parent="一人二役を担うトリック" child="老人が犯人トリック" />
+<ISA id="1580958190000_isa288" parent="一人二役を担うトリック" child="不具者が犯人トリック" />
+<ISA id="1580958833000_isa308" parent="一人二役を担うトリック" child="病人が犯人トリック" />
+<ISA id="1580958833000_isa309" parent="一人二役を担うトリック" child="死体が犯人トリック" />
+<ISA id="1580958833000_isa310" parent="一人二役を担うトリック" child="人形が犯人トリック" />
+<ISA id="1580959609000_isa316" parent="一人二役を担うトリック" child="動物が犯人トリック" />
+<ISA id="1580959670000_isa326" parent="二人一役を担うトリック" child="他人を自分の替え玉に仕立てるトリック" />
+<ISA id="1580959670000_isa327" parent="二人一役を担うトリック" child="双生児が二人一役トリック" />
+<ISA id="1580970714000_isa347" parent="役割" child="双子" />
+<ISA id="1581307999000_isa361" parent="無生物" child="時計" />
+<ISA id="1581308703000_isa366" parent="行為" child="事件発生時間の認識を変える" />
+<ISA id="1581320607000_isa377" parent="無生物" child="音" />
+<ISA id="1581491216000_isa351" parent="トリック" child="犯行の仕方に関するトリック" />
+<ISA id="1581491216000_isa352" parent="犯行の状況に関するトリック" child="足跡トリック" />
+<ISA id="1581491216000_isa353" parent="無生物" child="足跡" />
+<ISA id="1581491216000_isa354" parent="足跡トリック" child="後ろ向きに歩いて行き先を誤認させるトリック" />
+<ISA id="1581558467000_isa364" parent="抽象物" child="空間" />
+<ISA id="1581558467000_isa365" parent="抽象物" child="時間" />
+<ISA id="1581558467000_isa366" parent="空間" child="場所" />
+<ISA id="1581558467000_isa367" parent="行為" child="後ろ向きに歩く" />
+<ISA id="1581559105000_isa369" parent="足跡トリック" child="靴の底に蹄鉄をうち，馬の足跡と思わせるトリック" />
+<ISA id="1581560260000_isa375" parent="行為" child="別の足型をはめて歩く" />
+<ISA id="1581560474000_isa378" parent="生物" child="動物" />
+<ISA id="1581560474000_isa379" parent="動物" child="哺乳類" />
+<ISA id="1581560763000_isa384" parent="哺乳類" child="馬" />
+<ISA id="1581560970000_isa393" parent="足跡トリック" child="馬に牛の足型をはめて歩かせる" />
+<ISA id="1581561490000_isa396" parent="無生物" child="蹄鉄" />
+<ISA id="1581561524000_isa399" parent="無生物" child="牛の足型" />
+<ISA id="1581561585000_isa401" parent="犯行の仕方に関するトリック" child="密室トリック" />
+<ISA id="1581568903000_isa405" parent="無生物" child="部屋" />
+<ISA id="1581569290000_isa409" parent="密室トリック" child="犯行時，犯人が室内にいない" />
+<ISA id="1581569290000_isa410" parent="密室トリック" child="犯行時，犯人が室内にいる" />
+<ISA id="1581569290000_isa411" parent="密室トリック" child="犯行時，被害者が室内にいない" />
+<ISA id="1581569768000_isa417" parent="犯行時，犯人が室内にいない" child="室内の機械的な装置による殺人トリック" />
+<ISA id="1581572896000_isa424" parent="犯行時，犯人が室内にいない" child="室外からの遠隔殺人" />
+<ISA id="1581574468000_isa431" parent="犯行時，犯人が室内にいない" child="被害者自ら死に至らしめるトリック" />
+<ISA id="1581575109000_isa441" parent="行為" child="恐怖心を与える" />
+<ISA id="1581575757000_isa443" parent="密室トリック" child="密室脱出トリック" />
+<ISA id="1581576005000_isa452" parent="犯行時，犯人が室内にいる" child="実際より後に犯行があったと見せかける" />
+<ISA id="1581576005000_isa453" parent="犯行時，犯人が室内にいない" child="密室で人間以外の犯人が殺害する" />
+<ISA id="1581579451000_isa459" parent="実際より後に犯行があったと見せかける" child="犯行後，密室内で音を出すことで犯行時間を誤認させるトリック" />
+<ISA id="1581580405000_isa477" parent="犯行後，密室内で音を出すことで犯行時間を誤認させるトリック" child="犯行後，被害者の声を吹き込んだレコードを流すことで犯行時間を誤認させるトリック" />
+<ISA id="1581580405000_isa478" parent="犯行後，密室内で音を出すことで犯行時間を誤認させるトリック" child="犯行後，密室内で銃声を発することで犯行時間を誤認させるトリック" />
+<ISA id="1581580405000_isa479" parent="犯行後，密室内で音を出すことで犯行時間を誤認させるトリック" child="犯行後，紙袋に息を入れて強く叩く音で偽の銃声を作ることで犯行時間を誤認させるトリック" />
+<ISA id="1581614921000_isa479" parent="実際より後に犯行があったと見せかける" child="犯行後，死体の上に小屋を作る密室を形成することで，犯行時間を誤認させるトリック" />
+<ISA id="1581637550000_isa486" parent="行為" child="偽の密室を構成する" />
+<ISA id="1581637754000_isa489" parent="抽象物" child="特徴" />
+<ISA id="1581653803000_isa501" parent="密室の出入りに関するトリック" child="鍵をかけたまま，蝶番の付け外しにより出入りすることで，密室を構成しているように見せたまま犯行するトリック" />
+<ISA id="1581653803000_isa502" parent="犯行時，犯人が室内にいる" child="密室の出入りに関するトリック" />
+<ISA id="1581657836000_isa506" parent="密室の出入りに関するトリック" child="密室の屋根をジャッキで持ち上げて出入りすることで，密室を構成しているように見せたまま犯行するトリック" />
+<ISA id="1581666674000_isa517" parent="無生物" child="屋根" />
+<ISA id="1581666674000_isa518" parent="無生物" child="ドア" />
+<ISA id="1581666674000_isa519" parent="無生物" child="窓" />
+<ISA id="1581666674000_isa520" parent="部屋" child="密室" />
+<ISA id="1581754397000_isa526" parent="特徴" child="人の出入りが可能" />
+<ISA id="1581756577000_isa531" parent="特徴" child="蝶番が取り外し可能" />
+<ISA id="1581761622000_isa533" parent="特徴" child="ジャッキで屋根を持ち上げ可能" />
+<ISA id="1585313561000_isa536" parent="無生物" child="機械" />
+<ISA id="1585313561000_isa537" parent="室内の機械的な装置による殺人トリック" child="毒ガス発生ベッドによる密室毒殺" />
+<ISA id="1585313561000_isa538" parent="室内の機械的な装置による殺人トリック" child="ベッドが折りたたまれて密室窒息死" />
+<ISA id="1585313561000_isa539" parent="機械" child="電話" />
+<ISA id="1585313561000_isa540" parent="機械" child="ベッド" />
+<ISA id="1585315519000_isa546" parent="無生物" child="毒物" />
+<ISA id="1585316125000_isa549" parent="室内の機械的な装置による殺人トリック" child="電話の受話器で感電死" />
+<ISA id="1585316385000_isa552" parent="無生物" child="電気" />
+<ISA id="1585323206000_isa554" parent="抽象物" child="感情" />
+<ISA id="1585323206000_isa555" parent="感情" child="恐怖" />
+<ISA id="1585323904000_isa561" parent="無生物" child="凶器" />
+<ISA id="1585323904000_isa562" parent="室外からの遠隔殺人" child="窓を通して岩塩を打ちこみ殺害" />
+<ISA id="1585323904000_isa563" parent="室外からの遠隔殺人" child="室外から撃ったピストルを室内に投げ込み，犯人が室内にいたごとく見せかける殺人" />
+<ISA id="1585323904000_isa564" parent="室外からの遠隔殺人" child="カーテンの隙間から凶器を取り替えて証拠を隠滅する殺人" />
+<ISA id="1585475245000_isa567" parent="犯行の仕方に関するトリック" child="凶器トリック" />
+<ISA id="1585475245000_isa568" parent="犯行の仕方に関するトリック" child="毒物トリック" />
+<ISA id="1585475312000_isa574" parent="毒物トリック" child="嚥下毒" />
+<ISA id="1585475312000_isa575" parent="毒物トリック" child="注射毒" />
+<ISA id="1585475312000_isa576" parent="毒物トリック" child="吸入毒" />
+<ISA id="1585491000000_isa581" parent="注射毒" child="毒針が飛び出してくる椅子で毒殺" />
+<ISA id="1585491204000_isa584" parent="注射毒" child="握ると毒針が手のひらを刺す食卓ナイフで毒殺" />
+<ISA id="1585491204000_isa585" parent="注射毒" child="握手すると毒液を注射する指輪で毒殺" />
+<ISA id="1585494004000_isa585" parent="行為" child="毒を仕込む" />
+<ISA id="1585494178000_isa588" parent="毒物" child="毒液" />
+<ISA id="1585495010000_isa595" parent="毒物" child="毒針" />
+<ISA id="1585495010000_isa596" parent="無生物" child="椅子" />
+<ISA id="1585496763000_isa605" parent="一人二役を担うトリック" child="犯人が被害者の一人を装い，嫌疑を免れている" />
+<ISA id="1586141037000_isa606" parent="毒物" child="毒ガス" />
+<ISA id="1586250534000_isa609" parent="凶器トリック" child="動物利用の殺人" />
+<ISA id="1586251319000_isa613" parent="動物利用の殺人" child="ヘビに頭を噛まれて殺される" />
+<ISA id="1586251710000_isa618" parent="動物利用の殺人" child="獅子にくしゃみ薬を投入し獅子使いが口の中へ頭を入れる芸を実行するときにくしゃみをさせ噛み殺させる" />
+<ISA id="1586251710000_isa619" parent="動物利用の殺人" child="棒の先に獅子の爪のような金具をとりつけ、殴打して死に至らしめ、獅子にやられたと見せかける" />
+<ISA id="1586251710000_isa620" parent="動物利用の殺人" child="すれ違う貨車の窓から頭を出している牛の角に刺される" />
+<ISA id="1586255082000_isa631" parent="動物" child="爬虫類" />
+<ISA id="1586255082000_isa632" parent="爬虫類" child="ヘビ" />
+<ISA id="1586255082000_isa633" parent="無生物" child="牙" />
+<ISA id="1586255082000_isa634" parent="無生物" child="角" />
+<ISA id="1586361313000_isa632" parent="哺乳類" child="牛" />
+<ISA id="1586361313000_isa633" parent="哺乳類" child="ヒヒ" />
+<ISA id="1586361313000_isa634" parent="哺乳類" child="豹" />
+<ISA id="1586506346000_isa636" parent="音による時間トリック" child="電話による時間アリバイ偽造" />
+</W_CONCEPTS>
+<R_CONCEPTS>
+<CANVAS_SIZE w="8266" h="8064" />
+<CONCEPT id="1579797481000_n184" >
+<LABEL>look-like</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="220" y="40"/>
+<SLOTS>
+<SLOT id="1579797481000_s185" 
+ type="NW"  label="slot"  kind="p/i"  num="1"  role="obj1"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1579797481000_s186" 
+ type="NW"  label="slot2"  kind="p/i"  num="1"  role="obj2"  class_constraint="Any"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1580406359000_n205" >
+<LABEL>friendly</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="300" y="220"/>
+<SLOTS>
+<SLOT id="1584948965000_s538" 
+ type="NW"  label="slot"  kind="p/i"  num="1"  role="人間1"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+<SLOT id="1584948965000_s539" 
+ type="NW"  label="slot2"  kind="p/i"  num="1"  role="人間2"  class_constraint="人間"  rh_name=""  value="" >
+<SUB_LABELS>
+</SUB_LABELS>
+<SUB_L label="" def="" role_name="" class_const="人間" rh_name ="" value ="" />
+</SLOT>
+</SLOTS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+</R_CONCEPTS>
+<PRINTER>
+<PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
+<PAGE_FORMAT w="595.0" h="842.0" iw="559.0" ih="783.0" ix="18.0" iy="18.0" />
+<PRINTER_SETTINGS orientation="1" printername="192.168.0.7" />
+</PRINTER>
+</OE_FILE>
