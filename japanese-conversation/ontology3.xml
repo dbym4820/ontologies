@@ -2,7 +2,7 @@
 <OE_FILE filename="ontology3.xml" ont_id="1481885440000ont" >
 <FILENAME_ONT>ontology3.xml</FILENAME_ONT>
 <W_CONCEPTS>
-<CANVAS_SIZE w="13048" h="12320" x="697" y="788" />
+<CANVAS_SIZE w="13014" h="12292" x="1" y="829" />
 <CONCEPT id="1481885440000_n0" >
 <LABEL>Any</LABEL>
 <SUB_LABELS>
@@ -34,7 +34,7 @@
 <LABEL>アニメ</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="885" y="405"/>
+<POS x="884" y="404"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <SLOTS>
@@ -351,7 +351,7 @@
 <LABEL>概念的存在</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="565" y="908"/>
+<POS x="564" y="908"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -372,7 +372,7 @@
 <LABEL>生物</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1005" y="328"/>
+<POS x="1004" y="328"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1067,7 +1067,7 @@
 <LABEL>政治</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="505" y="360"/>
+<POS x="504" y="360"/>
 <SLOTS>
 <SLOT id="1551622807000_s121" 
  type="OR"  label="slot2"  kind="a/o"  num="0.."  role="話題タイプ"  class_constraint="硬い話題"  rh_name=""  value="" >
@@ -1096,7 +1096,7 @@
 <LABEL>選挙</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="585" y="500"/>
+<POS x="584" y="500"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1271,7 +1271,7 @@
 <LABEL>娯楽行為</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="253" y="228"/>
+<POS x="252" y="228"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1281,7 +1281,7 @@
 <LABEL>花見</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="442" y="269"/>
+<POS x="441" y="268"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1291,7 +1291,7 @@
 <LABEL>映画鑑賞</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="429" y="232"/>
+<POS x="428" y="232"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1401,7 +1401,7 @@
 <LABEL>自然</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="240" y="1060"/>
+<POS x="270" y="1102"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1411,7 +1411,7 @@
 <LABEL>鯖</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1585" y="60"/>
+<POS x="1584" y="60"/>
 <SLOTS>
 <SLOT id="1551613735000_s157" 
  type="OR"  label="slot"  kind="p/o"  num="0.."  role="別名Role"  class_constraint="string"  rh_name=""  value="さば" >
@@ -1583,7 +1583,7 @@
 <LABEL>ツツジ</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1165" y="400"/>
+<POS x="1164" y="400"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1723,7 +1723,7 @@
 <LABEL>るろうに剣心</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1445" y="780"/>
+<POS x="1444" y="780"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -1841,7 +1841,7 @@
 <LABEL>硬い話題</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="128" y="1125"/>
+<POS x="128" y="1124"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1851,7 +1851,7 @@
 <LABEL>対話メッセージ</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="984" y="1153"/>
+<POS x="984" y="1152"/>
 <SUB_TREE>open</SUB_TREE>
 <SLOTS>
 <SLOT id="1587338902000_s206" 
@@ -1869,7 +1869,7 @@
 </SLOTS>
 <SUB_L label="" def="" role_name="" class_const="Any" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1587450718000_s208" 
+<SLOT id="1587452961000_s208" 
  type="NW"  label="slot2"  kind="a/o"  num="1.."  role="要求する既知の事実"  class_constraint="Any"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
@@ -1885,7 +1885,7 @@
 <LABEL>文章</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="760" y="585"/>
+<POS x="760" y="584"/>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1895,7 +1895,7 @@
 <LABEL>変数付き文章</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="865" y="588"/>
+<POS x="864" y="588"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1905,7 +1905,7 @@
 <LABEL>変数</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="228" y="353"/>
+<POS x="228" y="352"/>
 <PART_TREE>close</PART_TREE>
 <SUB_TREE>open</SUB_TREE>
 <RELATIONS>
@@ -1926,7 +1926,7 @@
 <LABEL>[?x1]は好きですか？</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="973" y="1400"/>
+<POS x="972" y="1400"/>
 <SLOTS>
 <SLOT id="1587338902000_s213" 
  type="OR"  label="slot"  kind="p/o"  num="1.."  role="x1"  class_constraint="花"  rh_name=""  value="" >
@@ -1942,7 +1942,7 @@
 <PARENT_SLOT slot="対話メッセージ$slot"/>
 <SUB_L label="" def="" role_name="" class_const="鳥" rh_name ="" value ="" />
 </SLOT>
-<SLOT id="1587450718000_s216" 
+<SLOT id="1587452961000_s216" 
  type="OR"  label="slot3"  kind="p/o"  num="1.."  role="x1"  class_constraint="娯楽行為"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
@@ -1969,7 +1969,7 @@
 <LABEL>x2</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="320" y="465"/>
+<POS x="320" y="464"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1979,7 +1979,7 @@
 <LABEL>x3</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="333" y="440"/>
+<POS x="332" y="440"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -1989,7 +1989,7 @@
 <LABEL>x4</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="333" y="485"/>
+<POS x="332" y="484"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -1998,7 +1998,7 @@
 <LABEL>x5</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="265" y="540"/>
+<POS x="264" y="540"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -2007,7 +2007,7 @@
 <LABEL>x6</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="308" y="525"/>
+<POS x="308" y="524"/>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -2025,9 +2025,9 @@
 <LABEL>あなたの[?x1]はなんですか？</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="1176" y="1345"/>
+<POS x="1177" y="1344"/>
 <SLOTS>
-<SLOT id="1587450718000_s225" 
+<SLOT id="1587452961000_s225" 
  type="OR"  label="slot"  kind="p/o"  num="1.."  role="x1"  class_constraint="娯楽"  rh_name=""  value="" >
 <SUB_LABELS>
 </SUB_LABELS>
@@ -2043,7 +2043,7 @@
 <LABEL>趣味</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="133" y="1241"/>
+<POS x="132" y="1240"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -2053,7 +2053,7 @@
 <LABEL>アニメ鑑賞</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="406" y="302"/>
+<POS x="405" y="301"/>
 <PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
@@ -2063,7 +2063,27 @@
 <LABEL>読書</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
-<POS x="416" y="345"/>
+<POS x="416" y="344"/>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1587452961000_n229" >
+<LABEL>好きな食べ物</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="101" y="1293"/>
+<PART_TREE>close</PART_TREE>
+<RELATIONS>
+</RELATIONS>
+<SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
+</CONCEPT>
+<CONCEPT id="1587452961000_n230" >
+<LABEL>好きな映画</LABEL>
+<SUB_LABELS>
+</SUB_LABELS>
+<POS x="70" y="1352"/>
+<PART_TREE>close</PART_TREE>
 <RELATIONS>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -2213,9 +2233,11 @@
 <ISA id="1587342412000_isa369" parent="娯楽" child="趣味" />
 <ISA id="1587450718000_isa372" parent="娯楽行為" child="アニメ鑑賞" />
 <ISA id="1587450718000_isa373" parent="娯楽行為" child="読書" />
+<ISA id="1587452961000_isa376" parent="娯楽" child="好きな食べ物" />
+<ISA id="1587452961000_isa377" parent="娯楽" child="好きな映画" />
 </W_CONCEPTS>
 <R_CONCEPTS>
-<CANVAS_SIZE w="19740" h="17950" />
+<CANVAS_SIZE w="19649" h="17876" />
 </R_CONCEPTS>
 <PRINTER>
 <PAGE_SETTINGS header="true" footer="true" cropmarks="true" scale="100" />
