@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OE_FILE filename="技術オントロジー20200614.xml" ont_id="1587813689278ont" >
 <FILENAME_ONT>技術オントロジー20200614.xml</FILENAME_ONT>
-<W_CONCEPTS hasAny="false">
+<W_CONCEPTS>
 <CANVAS_SIZE w="4288" h="3966" x="14" y="0" />
 <CONCEPT id="1587813689278_n0" >
 <LABEL>Any</LABEL>
