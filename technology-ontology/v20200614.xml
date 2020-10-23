@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OE_FILE filename="技術オントロジー20200614.xml" ont_id="1587813689278ont" >
-<FILENAME_ONT>技術オントロジー20200614.xml</FILENAME_ONT>
+<OE_FILE filename="v20200614.xml" ont_id="1587813689278ont" >
+<FILENAME_ONT>v20200614.xml</FILENAME_ONT>
 <W_CONCEPTS>
-<CANVAS_SIZE w="4288" h="3966" x="14" y="0" />
+<CANVAS_SIZE w="4546" h="4092" x="810" y="219" />
 <CONCEPT id="1587813689278_n0" >
 <LABEL>Any</LABEL>
 <SUB_LABELS>
@@ -295,11 +295,10 @@
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
 </CONCEPT>
 <CONCEPT id="1588575700000_n54" instantiation="true" >
-<LABEL>セマンティックウェブセマンティックウェブ</LABEL>
+<LABEL>セマンティックウェブ</LABEL>
 <SUB_LABELS>
 </SUB_LABELS>
 <POS x="1498" y="578"/>
-<PART_TREE>close</PART_TREE>
 <SLOTS>
 <SLOT id="1589721755000_s38" 
  type="OR"  label="slot3"  kind="a/o"  num="1.."  role="目的"  class_constraint="ドキュメントの意味を人間が理解するという課題を解決する"  rh_name=""  value="" >
@@ -412,20 +411,20 @@
 </SLOTS>
 <RELATIONS>
 <R_CONST id="1590888663000_rc50" label="contribute" ><POS x="2098" y="698"/>
-<ARC label="目的">セマンティックウェブセマンティックウェブ$slot3</ARC>
-<ARC label="機能">セマンティックウェブセマンティックウェブ$slot%slot2</ARC>
+<ARC label="目的">セマンティックウェブ$slot3</ARC>
+<ARC label="機能">セマンティックウェブ$slot%slot2</ARC>
 </R_CONST>
 <R_CONST id="1590888663000_rc51" label="not-contribute" ><POS x="2098" y="738"/>
-<ARC label="目的">セマンティックウェブセマンティックウェブ$slot32</ARC>
-<ARC label="機能">セマンティックウェブセマンティックウェブ$slot%slot2</ARC>
+<ARC label="目的">セマンティックウェブ$slot32</ARC>
+<ARC label="機能">セマンティックウェブ$slot%slot2</ARC>
 </R_CONST>
 <R_CONST id="1592115100000_rc51" label="contribute" ><POS x="2094" y="790"/>
-<ARC label="目的">セマンティックウェブセマンティックウェブ$slot32</ARC>
-<ARC label="機能">セマンティックウェブセマンティックウェブ$slot4%slot2%slot</ARC>
+<ARC label="目的">セマンティックウェブ$slot32</ARC>
+<ARC label="機能">セマンティックウェブ$slot4%slot2%slot</ARC>
 </R_CONST>
 <R_CONST id="1592115100000_rc52" label="not-contribute" ><POS x="2208" y="896"/>
-<ARC label="目的">セマンティックウェブセマンティックウェブ$slot32</ARC>
-<ARC label="機能">セマンティックウェブセマンティックウェブ$slot4%slot2%slot2</ARC>
+<ARC label="目的">セマンティックウェブ$slot32</ARC>
+<ARC label="機能">セマンティックウェブ$slot4%slot2%slot2</ARC>
 </R_CONST>
 </RELATIONS>
 <SUB_L label="" def="" role_name="" class_const="" rh_name ="" value ="" />
@@ -1123,7 +1122,7 @@
 <ISA id="1587965045000_isa47" parent="Any" child="行為概念" />
 <ISA id="1587965045000_isa48" parent="行為概念" child="課題を解決する" />
 <ISA id="1588573037000_isa66" parent="課題" child="自然言語の曖昧性を軽減するという課題" />
-<ISA id="1588575700000_isa83" parent="技術" child="セマンティックウェブセマンティックウェブ" />
+<ISA id="1588575700000_isa83" parent="技術" child="セマンティックウェブ" />
 <ISA id="1588688764000_isa87" parent="課題" child="メタデータ同士の同一性を判定するという課題" />
 <ISA id="1588736752000_isa98" parent="課題" child="セマンティックウェブの実現に関する課題" />
 <ISA id="1588737330000_isa90" parent="技術" child="意味を表すタグ（という技術）" />
@@ -1165,7 +1164,7 @@
 <ISA id="1590888663000_isa192" parent="セマンティックウェブの実現に関する課題" child="ドキュメントの意味を人間が理解するという課題" />
 </W_CONCEPTS>
 <R_CONCEPTS>
-<CANVAS_SIZE w="4288" h="3966" />
+<CANVAS_SIZE w="4546" h="4092" />
 <CONCEPT id="1590309321000_n172" >
 <LABEL>contribute</LABEL>
 <SUB_LABELS>
